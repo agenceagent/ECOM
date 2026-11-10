@@ -5,6 +5,14 @@
 - L'apprenant a demandé : accompagnement payant (spécialisé Google Ads) ou apprendre seul ? Il attend une réponse argumentée, pas un sermon. Lui demander le prix et le contenu exact de l'offre, puis l'analyser avec la grille de `reference/rentabilite-pub.html`.
 - Leçons publiées en artifact (site du cours : `index.html` + `lessons/` + `reference/` + `assets/`) car la session tourne dans un conteneur distant.
 
+## Point du 10/11/2026
+- L'apprenant a pris l'accompagnement payant. Il en est à la recherche produit : environ 40 idées de niches dans un Google Sheet, à valider avec un second Sheet de critères fourni par la formation.
+- Outil de la formation : OneClickBrand (oneclickbrand.ai). Pas d'API publique ; d'après son propre site, ses données de niche (volume, CPC, concurrence) viennent de Semrush.
+- Il veut déléguer la vérification et le remplissage du Sheet. Blocages : pas d'outil d'édition Google Sheets dans la session, et les deux fichiers sont introuvables dans le Drive connecté (on y voit seulement « modele-sheet-fiches-produits » et « Sourcing Concurrents V2 »).
+- Pistes proposées : export du Planificateur de mots clés (gratuit), ou API DataForSEO (recharge minimum de 50 $) pour automatiser.
+- Idée pour la leçon 2 : partir de SES niches et lui apprendre à lire volume, CPC et prix moyen, pour qu'il puisse contrôler le tri (le mien comme celui de l'outil). Il garde la décision finale.
+- Question ouverte : aligner le plan du cours sur le programme de sa formation ?
+
 ## Hypothèses de l'apprenant à travailler
 - « Google Ads permet de cibler un public plus aisé » : faux tel quel en France (pas de ciblage par revenu du foyer). Le vrai levier est l'intention de recherche. Abordé en leçon 1 ; vérifier au début de la leçon 2 s'il l'a retenu avant d'écrire un learning record.
 - « Si j'interromps les gens, ça ne marchera pas en high ticket » : hypothèse raisonnable mais non testée. Ne pas la contredire maintenant ; la garder comme hypothèse.
