@@ -17,6 +17,11 @@
   - Quota de l'essai épuisé (0/5 analyses approfondies). Essai terminé vers le 14/11/2026.
   - Fournisseurs : VidaXL lisible (prix public, délai, stock) ; AliExpress lisible en recherche avec filtre « expédié de France », mais les délais des fiches ne se lisent pas.
   - Résultat : brasero = printemps (bleu), chaise ergonomique = à creuser (CPC limite selon le mot-clé), cave à vin = éliminée (pas de fournisseur de cave électrique trouvé).
+- Retours de l'apprenant sur le test (10/11/2026) :
+  - « Concurrent » = boutique en dropshipping, en général sous Shopify (il vérifie avec l'extension TrendTrack). Les marques et grandes enseignes ne comptent pas.
+  - Un fournisseur peut proposer un produit équivalent (même type, mêmes usages), pas forcément le même modèle.
+  - Sources fournisseurs de sa formation : Europages, BigBuy, Google (« produit supplier / wholesale »), Alibaba avec commande minimum à 1.
+- Faisabilité testée : détection Shopify fiable (code de la page) ; Google bloque (captcha), Bing brouille ses résultats après 1 ou 2 requêtes, BigBuy (Cloudflare) et Alibaba (curseur anti-robot) bloquent ; Europages = fiches entreprises sans prix. Les concurrents en dropshipping sont à trouver par l'apprenant (TrendTrack) ou par une API de résultats Google.
 - Question ouverte : aligner le plan du cours sur le programme de sa formation ?
 
 ## Hypothèses de l'apprenant à travailler
