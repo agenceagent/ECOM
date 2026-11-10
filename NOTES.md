@@ -27,6 +27,11 @@
   - Le CPC fourchette haute Google est plus élevé que le CPC moyen de OneClickBrand (chaise : 1,76 € contre 1,17 €).
   - La grille impose des listes déroulantes (J : FAIBLE, MOYENNE, ÉLEVÉE ; K : EVERGREEN, PRINTEMPS, ÉTÉ, AUTOMNE, HIVER, Q4). L'apprenant a lui-même remis K8:K10 à ces valeurs.
   - Partage du travail validé : moi = tous les chiffres ; lui = concurrents (TrendTrack) et fournisseurs. Objectif : environ 20 produits qui passent les chiffres ; il cherchera d'autres idées si besoin.
+- Comparaison Google (DataForSEO) et OneClickBrand, vérifiée avec l'apprenant le 10/11/2026 :
+  - Chez OneClickBrand, la carte « Volume de recherche » en haut = moyenne de leur propre courbe sur 12 mois (chaise : 14 800 pile). Le tableau « mots-clés de la niche » donne exactement les chiffres Google (chaise ergonomique 22 200, chaise de bureau ergonomique 14 800).
+  - Mêmes mots-clés : Google donne 20 à 50 % de volume en plus que la courbe OneClickBrand ; mêmes saisons.
+  - CPC « fourchette haute » : sens à confirmer avec la formation (CPC le plus haut des variantes ? enchère haut de page ?). Aujourd'hui : enchère haut de page, fourchette haute (le plus prudent).
+  - L'apprenant aime comprendre et contrôler : toujours montrer la donnée brute et comment la vérifier lui-même.
 - Question ouverte : aligner le plan du cours sur le programme de sa formation ?
 
 ## Hypothèses de l'apprenant à travailler
