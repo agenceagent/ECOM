@@ -26,11 +26,18 @@ DONNEES = os.path.join(ICI, "donnees")
 VOLUME_MIN = 8000                 # recherches par mois, variantes additionnées
 CONCURRENCE_OK = {"LOW", "MEDIUM"}  # faible ou moyenne
 CLICS_PAR_VENTE = 100             # CPC × 100 doit rester sous la marge brute (1 % de conversion)
+# Google met une concurrence « HIGH » (indice 100/100) à presque tous les produits physiques (93 mots-clés
+# sur 93 le 10/11/2026). Le seuil de la formation est calé sur Semrush : on affiche la valeur Google
+# sans éliminer dessus, en attendant de savoir où la formation veut qu'on la relève.
+CONCURRENCE_ELIMINE = False
 # Règle à nous : un produit est « evergreen » si son meilleur mois ne dépasse pas 1,35 fois la moyenne
 PIC_EVERGREEN_MAX = 1.35
 
 MOIS = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."]
+MOIS_LONG = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"]
 CONCURRENCE_FR = {"LOW": "Faible", "MEDIUM": "Moyenne", "HIGH": "Élevée"}
+# Listes déroulantes de la grille de la formation (colonnes J et K)
+LISTE_CONCURRENCE = {"LOW": "FAIBLE", "MEDIUM": "MOYENNE", "HIGH": "ÉLEVÉE"}
 
 
 def lire_idees():
@@ -40,8 +47,12 @@ def lire_idees():
 
 def http_json(url, data=None, headers=None):
     req = urllib.request.Request(url, data=data, headers=headers or {})
-    with urllib.request.urlopen(req, timeout=120) as r:
-        return json.loads(r.read().decode("utf-8"))
+    try:
+        with urllib.request.urlopen(req, timeout=120) as r:
+            return json.loads(r.read().decode("utf-8"))
+    except urllib.error.HTTPError as e:
+        corps = e.read().decode("utf-8", "replace")[:500]
+        sys.exit(f"Refus HTTP {e.code} de {urllib.parse.urlparse(url).hostname} : {corps}")
 
 
 def taux_usd_eur():
@@ -104,11 +115,11 @@ def saisonnalite(series):
     centre = pic[1] + 1
     if max(idx) <= PIC_EVERGREEN_MAX:
         leger = f" (léger pic {fenetre})" if max(idx) > 1.15 else ""
-        return {"libelle": "EVERGREEN" + leger, "ok": True, "indices": idx, "lancement": None}
+        return {"libelle": "EVERGREEN" + leger, "liste": "EVERGREEN", "ok": True, "indices": idx, "lancement": None}
     saison = ("HIVER" if centre in (1, 2) else "PRINTEMPS" if centre in (3, 4, 5) else
               "ÉTÉ" if centre in (6, 7, 8) else "AUTOMNE" if centre == 9 else "Q4")
-    lancement = MOIS[(pic[0] - 2) % 12]  # 4 à 6 semaines avant le début du pic
-    return {"libelle": f"{saison} (pic {fenetre})", "ok": saison == "PRINTEMPS", "indices": idx,
+    lancement = MOIS_LONG[(pic[0] - 2) % 12]  # 4 à 6 semaines avant le début du pic
+    return {"libelle": f"{saison} (pic {fenetre})", "liste": saison, "ok": saison == "PRINTEMPS", "indices": idx,
             "lancement": lancement, "saison": saison}
 
 
@@ -129,8 +140,10 @@ def analyser(chemin):
             if it and it.get("search_volume") is not None:
                 variantes.append(it)
         if not variantes:
-            lignes.append({"produit": idee["produit"], "niche": idee["niche"], "statut": "ROUGE",
-                           "commentaire": "Éliminé : aucune donnée Google pour ces mots-clés.", "ligne_existante": idee.get("ligne_existante")})
+            lignes.append({"produit": idee["produit"], "niche": idee["niche"], "statut": "",
+                           "commentaire": "Google ne fournit aucun chiffre pour ces mots-clés : à vérifier dans OneClickBrand.",
+                           "volume_detail": "Aucun chiffre Google (" + ", ".join(idee["mots_cles"]) + ")",
+                           "ligne_existante": idee.get("ligne_existante")})
             continue
         # Dédoublonnage : mêmes chiffres mois par mois = variantes que Google regroupe déjà
         groupes, signatures, regroupees = [], {}, []
@@ -160,7 +173,7 @@ def analyser(chemin):
         raisons = []
         if total < VOLUME_MIN:
             raisons.append(f"volume {total:,} sous les 8 000".replace(",", " "))
-        if conc == "HIGH":
+        if conc == "HIGH" and CONCURRENCE_ELIMINE:
             raisons.append("concurrence Google Ads élevée")
         if raisons:
             statut = "ROUGE"
@@ -174,14 +187,18 @@ def analyser(chemin):
             commentaire = "À évaluer : chiffres OK, reste fournisseurs et concurrents."
         if cpc_eur is not None and statut != "ROUGE":
             commentaire += f" Critère CPC : il faudra au moins {cpc_eur * CLICS_PAR_VENTE:.0f} € de marge brute."
-        if conc is None and statut != "ROUGE":
+        ci = principal.get("competition_index")
+        if conc is None:
             commentaire += " Concurrence Ads non fournie par Google."
+        elif not CONCURRENCE_ELIMINE:
+            commentaire += f" Concurrence Ads selon Google : {CONCURRENCE_FR.get(conc, conc).lower()} ({ci}/100), critère à confirmer avec ta formation."
         q = urllib.parse.quote(principal["keyword"])
         lignes.append({
             "produit": idee["produit"], "niche": idee["niche"], "ligne_existante": idee.get("ligne_existante"),
             "mot_cle_principal": principal["keyword"], "volume_total": total, "volume_detail": detail,
             "cpc_eur": cpc_eur, "cpc_source": "fourchette haute (enchère haut de page)" if haut is not None else "CPC moyen (fourchette haute absente)",
-            "concurrence": CONCURRENCE_FR.get(conc, "Non fournie"), "saisonnalite": s["libelle"],
+            "concurrence": (f"{CONCURRENCE_FR.get(conc)} (Google, {principal.get('competition_index')}/100)" if conc else "Non fournie"), "saisonnalite": s["libelle"],
+            "concurrence_liste": LISTE_CONCURRENCE.get(conc, ""), "saison_liste": s.get("liste", ""),
             "indices_mensuels": [round(x, 2) for x in s["indices"]] if s["indices"] else None,
             "trends": f"https://trends.google.fr/trends/explore?date=today%205-y&geo=FR&q={q}",
             "statut": statut, "commentaire": commentaire,
@@ -233,7 +250,7 @@ def test():
     assert c["statut"] == "JAUNE" and c["saisonnalite"] == "EVERGREEN"
     assert c["cpc_eur"] == 1.2                                       # 1,32 $ / 1,10
     assert lignes["brasero"]["statut"] == "JAUNE" and lignes["brasero"]["saisonnalite"].startswith("PRINTEMPS")
-    assert lignes["cave à vin"]["statut"] == "ROUGE"                 # concurrence élevée
+    assert lignes["cave à vin"]["statut"] == "BLEU"                  # Q4 ; la concurrence élevée n'élimine plus
     assert lignes["barbecue"]["statut"] == "BLEU" and lignes["barbecue"]["saisonnalite"].startswith("Q4")
     for f in (chemin, chemin.replace("dataforseo-", "resultats-").replace(".json", ".csv"),
               chemin.replace("dataforseo-", "resultats-")):

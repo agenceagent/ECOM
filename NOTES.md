@@ -22,6 +22,11 @@
   - Un fournisseur peut proposer un produit équivalent (même type, mêmes usages), pas forcément le même modèle.
   - Sources fournisseurs de sa formation : Europages, BigBuy, Google (« produit supplier / wholesale »), Alibaba avec commande minimum à 1.
 - Faisabilité testée : détection Shopify fiable (code de la page) ; Google bloque (captcha), Bing brouille ses résultats après 1 ou 2 requêtes, BigBuy (Cloudflare) et Alibaba (curseur anti-robot) bloquent ; Europages = fiches entreprises sans prix. Les concurrents en dropshipping sont à trouver par l'apprenant (TrendTrack) ou par une API de résultats Google.
+- Validation chiffrée du 10/11/2026 (DataForSEO, compte de l'apprenant, 0,09 $ dépensé sur 1 $) : 41 produits écrits dans la grille (lignes 8 à 48). Répartition des 38 nouveaux : 11 jaunes, 19 bleus (saison plus tard), 7 rouges (volume), 1 sans données (porte-bébé).
+  - Google met la concurrence Ads à « élevée » (100/100) sur 93 mots-clés sur 93 : le seuil de la formation (faible ou moyenne) ne trie plus rien avec ces chiffres. Affichée, pas utilisée pour éliminer. Question posée à l'apprenant pour sa formation.
+  - Le CPC fourchette haute Google est plus élevé que le CPC moyen de OneClickBrand (chaise : 1,76 € contre 1,17 €).
+  - La grille impose des listes déroulantes (J : FAIBLE, MOYENNE, ÉLEVÉE ; K : EVERGREEN, PRINTEMPS, ÉTÉ, AUTOMNE, HIVER, Q4). L'apprenant a lui-même remis K8:K10 à ces valeurs.
+  - Partage du travail validé : moi = tous les chiffres ; lui = concurrents (TrendTrack) et fournisseurs. Objectif : environ 20 produits qui passent les chiffres ; il cherchera d'autres idées si besoin.
 - Question ouverte : aligner le plan du cours sur le programme de sa formation ?
 
 ## Hypothèses de l'apprenant à travailler
