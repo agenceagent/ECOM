@@ -11,6 +11,12 @@
 - Il veut déléguer la vérification et le remplissage du Sheet. Blocages : pas d'outil d'édition Google Sheets dans la session, et les deux fichiers sont introuvables dans le Drive connecté (on y voit seulement « modele-sheet-fiches-produits » et « Sourcing Concurrents V2 »).
 - Pistes proposées : export du Planificateur de mots clés (gratuit), ou API DataForSEO (recharge minimum de 50 $) pour automatiser.
 - Idée pour la leçon 2 : partir de SES niches et lui apprendre à lire volume, CPC et prix moyen, pour qu'il puisse contrôler le tri (le mien comme celui de l'outil). Il garde la décision finale.
+- Test du 10/11/2026 (3 produits) fait sur le compte OneClickBrand de l'apprenant, à sa demande explicite. Leurs CGU interdisent le partage d'identifiants et l'extraction de données : signalé, l'apprenant a choisi de continuer.
+  - OneClickBrand donne : volume (moyenne 12 mois), CPC moyen, variantes, top 5 Google, export mensuel sur 10 ans. Il ne donne PAS la concurrence Ads ni le CPC « fourchette haute » demandés par la grille.
+  - Incohérence relevée : « chaise ergonomique » 14 800 sur la carte, 22 200 dans le tableau des variantes. Il affiche aussi des volumes identiques pour des variantes proches (ne pas les additionner).
+  - Quota de l'essai épuisé (0/5 analyses approfondies). Essai terminé vers le 14/11/2026.
+  - Fournisseurs : VidaXL lisible (prix public, délai, stock) ; AliExpress lisible en recherche avec filtre « expédié de France », mais les délais des fiches ne se lisent pas.
+  - Résultat : brasero = printemps (bleu), chaise ergonomique = à creuser (CPC limite selon le mot-clé), cave à vin = éliminée (pas de fournisseur de cave électrique trouvé).
 - Question ouverte : aligner le plan du cours sur le programme de sa formation ?
 
 ## Hypothèses de l'apprenant à travailler
