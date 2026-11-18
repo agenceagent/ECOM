@@ -264,6 +264,10 @@ def test():
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else ""
     if cmd == "fetch":
+        # Envoi payant (environ 0,09 $) : seulement avec l'accord explicite de l'apprenant pour CET envoi.
+        if "--accord-apprenant" not in sys.argv:
+            sys.exit("Envoi payant bloqué : demander d'abord l'accord explicite de l'apprenant, "
+                     "regrouper toutes les idées en attente, puis relancer avec --accord-apprenant.")
         analyser(fetch())
     elif cmd == "analyse":
         analyser(sys.argv[2])
