@@ -58,3 +58,9 @@
 
 ## Révision espacée
 - Début de leçon 2 : 3 questions de rappel sur la leçon 1 (ROAS de rentabilité, ventes attendues, ciblage par revenu absent en France).
+
+## Point du 18/11/2026
+- Marché : la France seulement (conseil de la formation pour les débutants).
+- CPC : la formation prend le CPC affiché par Semrush, qui est un CPC moyen. Le script prend maintenant le CPC moyen Google ; colonnes H et N (lignes 11 à 48) réécrites. Les statuts ne changent pas.
+- L'apprenant a trouvé de vrais concurrents en dropshipping via Google Shopping (lignes 8 à 10) et fait lui-même la recherche image AliExpress.
+- Test de recherche par image AliExpress (4 concurrents de sa grille) : brasero Bricovibe (533,90 €) = même photo trouvée 4 fois, de 137 à 318 €, dont un lien qu'il avait trouvé lui-même ; brasero LIVLIG = produits équivalents, pas identiques ; cave à vin Esprit Vin = pas trouvée (frigos à boissons) ; chaise Montians = bloqué par une demande de connexion AliExpress. Outils dans tools/fournisseurs.

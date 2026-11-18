@@ -166,8 +166,10 @@ def analyser(chemin):
             for x in it.get("monthly_searches") or []:
                 serie[(x["year"], x["month"])] += x["search_volume"] or 0
         s = saisonnalite([(a, m, v) for (a, m), v in sorted(serie.items())])
+        # La formation prend le CPC affiché par Semrush, qui est un CPC moyen (confirmé le 18/11/2026).
+        # On prend donc le CPC moyen Google ; la fourchette haute reste dans la donnée brute.
         haut = principal.get("high_top_of_page_bid")
-        cpc_usd = haut if haut is not None else principal.get("cpc")
+        cpc_usd = principal.get("cpc") if principal.get("cpc") is not None else haut
         cpc_eur = round(cpc_usd / taux, 2) if (cpc_usd is not None and taux) else None
         conc = principal.get("competition")
         raisons = []
@@ -196,7 +198,8 @@ def analyser(chemin):
         lignes.append({
             "produit": idee["produit"], "niche": idee["niche"], "ligne_existante": idee.get("ligne_existante"),
             "mot_cle_principal": principal["keyword"], "volume_total": total, "volume_detail": detail,
-            "cpc_eur": cpc_eur, "cpc_source": "fourchette haute (enchère haut de page)" if haut is not None else "CPC moyen (fourchette haute absente)",
+            "cpc_eur": cpc_eur, "cpc_source": "CPC moyen" if principal.get("cpc") is not None else "fourchette haute (CPC moyen absent)",
+            "cpc_haut_eur": round(haut / taux, 2) if (haut is not None and taux) else None,
             "concurrence": (f"{CONCURRENCE_FR.get(conc)} (Google, {principal.get('competition_index')}/100)" if conc else "Non fournie"), "saisonnalite": s["libelle"],
             "concurrence_liste": LISTE_CONCURRENCE.get(conc, ""), "saison_liste": s.get("liste", ""),
             "indices_mensuels": [round(x, 2) for x in s["indices"]] if s["indices"] else None,
@@ -248,7 +251,7 @@ def test():
     assert c["volume_total"] == 10000, c["volume_total"]           # 6000 + 4000, la 3e variante n'est pas recomptée
     assert "non additionné" in c["volume_detail"]
     assert c["statut"] == "JAUNE" and c["saisonnalite"] == "EVERGREEN"
-    assert c["cpc_eur"] == 1.2                                       # 1,32 $ / 1,10
+    assert c["cpc_eur"] == 0.6                                       # CPC moyen 0,66 $ / 1,10
     assert lignes["brasero"]["statut"] == "JAUNE" and lignes["brasero"]["saisonnalite"].startswith("PRINTEMPS")
     assert lignes["cave à vin"]["statut"] == "BLEU"                  # Q4 ; la concurrence élevée n'élimine plus
     assert lignes["barbecue"]["statut"] == "BLEU" and lignes["barbecue"]["saisonnalite"].startswith("Q4")
