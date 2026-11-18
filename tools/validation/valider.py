@@ -143,6 +143,7 @@ def analyser(chemin):
             lignes.append({"produit": idee["produit"], "niche": idee["niche"], "statut": "",
                            "commentaire": "Google ne fournit aucun chiffre pour ces mots-clés : à vérifier dans OneClickBrand.",
                            "volume_detail": "Aucun chiffre Google (" + ", ".join(idee["mots_cles"]) + ")",
+                           "volume_cellule": "TOTAL : aucun chiffre Google\n" + ", ".join(idee["mots_cles"]),
                            "ligne_existante": idee.get("ligne_existante")})
             continue
         # Dédoublonnage : mêmes chiffres mois par mois = variantes que Google regroupe déjà
@@ -161,6 +162,12 @@ def analyser(chemin):
             detail += f" = {total:,}".replace(",", " ")
         if regroupees:
             detail += " (non additionné, Google les compte déjà ensemble : " + ", ".join(f"{a} = {b}" for a, b in regroupees) + ")"
+        # Format de la colonne Volume de la grille : le total seul en première ligne, le détail dessous.
+        nb = lambda n: f"{n:,}".replace(",", " ")
+        cellule = [f"TOTAL {nb(total)}", " + ".join(f"{it['keyword']} {nb(it['search_volume'])}" for it in groupes)]
+        if regroupees:
+            cellule.append("Déjà comptés par Google, non additionnés : " + ", ".join(f"{a} (= {b})" for a, b in regroupees))
+        volume_cellule = "\n".join(cellule)
         serie = defaultdict(int)
         for it in groupes:
             for x in it.get("monthly_searches") or []:
@@ -197,7 +204,7 @@ def analyser(chemin):
         q = urllib.parse.quote(principal["keyword"])
         lignes.append({
             "produit": idee["produit"], "niche": idee["niche"], "ligne_existante": idee.get("ligne_existante"),
-            "mot_cle_principal": principal["keyword"], "volume_total": total, "volume_detail": detail,
+            "mot_cle_principal": principal["keyword"], "volume_total": total, "volume_detail": detail, "volume_cellule": volume_cellule,
             "cpc_eur": cpc_eur, "cpc_source": "CPC moyen" if principal.get("cpc") is not None else "fourchette haute (CPC moyen absent)",
             "cpc_haut_eur": round(haut / taux, 2) if (haut is not None and taux) else None,
             "concurrence": (f"{CONCURRENCE_FR.get(conc)} (Google, {principal.get('competition_index')}/100)" if conc else "Non fournie"), "saisonnalite": s["libelle"],
