@@ -64,3 +64,5 @@
 - CPC : la formation prend le CPC affiché par Semrush, qui est un CPC moyen. Le script prend maintenant le CPC moyen Google ; colonnes H et N (lignes 11 à 48) réécrites. Les statuts ne changent pas.
 - L'apprenant a trouvé de vrais concurrents en dropshipping via Google Shopping (lignes 8 à 10) et fait lui-même la recherche image AliExpress.
 - Test de recherche par image AliExpress (4 concurrents de sa grille) : brasero Bricovibe (533,90 €) = même photo trouvée 4 fois, de 137 à 318 €, dont un lien qu'il avait trouvé lui-même ; brasero LIVLIG = produits équivalents, pas identiques ; cave à vin Esprit Vin = pas trouvée (frigos à boissons) ; chaise Montians = bloqué par une demande de connexion AliExpress. Outils dans tools/fournisseurs.
+- 18/11/2026 : l'apprenant ne veut pas de mise en page ajoutée (couleurs de statut retirées de la grille). Ne plus colorer ; garder le statut dans le commentaire. Notes de source conservées (à retirer s'il le demande).
+- « sacoche de transport » (70) relancé en « sacoche ordinateur » et variantes : 10 180, CPC moyen 0,47 €, quasi evergreen (pic 1,35). Leçon vue : le volume dépend du mot-clé exact.

@@ -6,7 +6,7 @@
     {"produit": "ventilateur de plafond", "idee": "ventilateur plafond", "niche": "Maison, confort", "mots_cles": ["ventilateur de plafond", "ventilateur plafond"]},
     {"produit": "échiquier", "idee": "échiquier", "niche": "Jeux, loisirs", "mots_cles": ["échiquier", "echiquier", "jeu d'échecs"]},
     {"produit": "machine à café", "idee": "machine à café", "niche": "Cuisine", "mots_cles": ["machine à café", "machine a cafe"]},
-    {"produit": "sacoche de transport", "idee": "sacoche de transport", "niche": "Bagagerie", "mots_cles": ["sacoche de transport"]},
+    {"produit": "sacoche ordinateur", "idee": "sacoche de transport (ordinateur, documents)", "niche": "Bagagerie, bureau", "mots_cles": ["sacoche ordinateur", "sacoche ordinateur portable", "sacoche pc portable", "sacoche pc", "sac ordinateur portable", "sacoche porte document"]},
     {"produit": "chaise ergonomique", "idee": "chaise ergonomique", "niche": "Bureau, télétravail", "mots_cles": ["chaise ergonomique", "chaise de bureau ergonomique", "fauteuil de bureau ergonomique"], "ligne_existante": 9},
     {"produit": "ski", "idee": "ski", "niche": "Sports d'hiver", "mots_cles": ["ski", "skis"]},
     {"produit": "déshumidificateur", "idee": "deshumidificateur", "niche": "Maison, confort", "mots_cles": ["déshumidificateur", "deshumidificateur", "déshumidificateur d'air"]},
