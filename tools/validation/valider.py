@@ -103,7 +103,7 @@ def fetch():
     aujourd_hui = dt.date.today()
     debut = dt.date(aujourd_hui.year - 4, aujourd_hui.month, 1) + dt.timedelta(days=32)
     debut = debut.replace(day=1)
-    corps = [{"keywords": mots, "location_name": "France", "language_code": "fr", "date_from": debut.isoformat()}]
+    corps = [{"keywords": mots, "location_name": "France", "language_code": "fr", "date_from": debut.isoformat(), "include_adult_keywords": True}]
     rep = http_json(
         "https://api.dataforseo.com/v3/keywords_data/google_ads/search_volume/live",
         data=json.dumps(corps).encode("utf-8"),
@@ -192,7 +192,7 @@ def analyser(chemin):
         nb = lambda n: f"{n:,}".replace(",", " ")
         cellule = [f"TOTAL {nb(total)}", " + ".join(f"{it['keyword']} {nb(it['search_volume'])}" for it in groupes)]
         if regroupees:
-            cellule.append("Déjà comptés par Google, non additionnés : " + ", ".join(f"{a} (= {b})" for a, b in regroupees))
+            cellule.append("Déjà comptées par Google, non additionnées : " + ", ".join(a for a, b in regroupees))
         volume_cellule = "\n".join(cellule)
         serie = defaultdict(int)
         for it in groupes:

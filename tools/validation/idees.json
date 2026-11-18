@@ -596,11 +596,11 @@
    "niche": "Bien-être",
    "mots_cles": [
     "sauna infrarouge",
-    "sauna",
     "sauna portable",
     "cabine sauna"
    ],
-   "lot": "lot du 18/11/2026"
+   "lot": "lot du 18/11/2026",
+   "note": "« sauna » seul retiré le 18/11 : inclut les gens qui cherchent un sauna où aller."
   },
   {
    "produit": "bain froid",
@@ -725,10 +725,10 @@
    "idee": "idée Claude",
    "niche": "Sports nautiques",
    "mots_cles": [
-    "kayak gonflable",
-    "kayak"
+    "kayak gonflable"
    ],
-   "lot": "lot du 18/11/2026"
+   "lot": "lot du 18/11/2026",
+   "note": "« kayak » seul retiré le 18/11 : surtout le site de voyage Kayak."
   },
   {
    "produit": "tente de toit",
@@ -929,6 +929,219 @@
     "velo electrique pliant"
    ],
    "lot": "lot du 18/11/2026"
+  },
+  {
+   "produit": "lunette thermique (ami)",
+   "idee": "liste de l'ami",
+   "niche": "comparaison Semrush",
+   "mots_cles": [
+    "lunette thermique",
+    "lunette vision thermique"
+   ],
+   "lot": "comparaison ami 18/11/2026",
+   "comparaison": {
+    "volume_semrush": 4000,
+    "cpc_semrush": 0.15
+   }
+  },
+  {
+   "produit": "sexe machine (ami)",
+   "idee": "liste de l'ami",
+   "niche": "comparaison Semrush",
+   "mots_cles": [
+    "sexe machine",
+    "sex machine",
+    "machine sexuelle"
+   ],
+   "lot": "comparaison ami 18/11/2026",
+   "comparaison": {
+    "volume_semrush": 13700,
+    "cpc_semrush": 0.31
+   }
+  },
+  {
+   "produit": "casier (ami)",
+   "idee": "liste de l'ami",
+   "niche": "comparaison Semrush",
+   "mots_cles": [
+    "casier",
+    "casier de rangement",
+    "casier métallique"
+   ],
+   "lot": "comparaison ami 18/11/2026",
+   "comparaison": {
+    "volume_semrush": 12110,
+    "cpc_semrush": 0.2
+   }
+  },
+  {
+   "produit": "chauffage extérieur (ami)",
+   "idee": "liste de l'ami",
+   "niche": "comparaison Semrush",
+   "mots_cles": [
+    "chauffage extérieur"
+   ],
+   "lot": "comparaison ami 18/11/2026",
+   "comparaison": {
+    "volume_semrush": 7500,
+    "cpc_semrush": 0.25
+   }
+  },
+  {
+   "produit": "prothèse capillaire (ami)",
+   "idee": "liste de l'ami",
+   "niche": "comparaison Semrush",
+   "mots_cles": [
+    "prothèse capillaire",
+    "complément capillaire"
+   ],
+   "lot": "comparaison ami 18/11/2026",
+   "comparaison": {
+    "volume_semrush": 8670,
+    "cpc_semrush": 0.59
+   }
+  },
+  {
+   "produit": "rasoir électrique (ami)",
+   "idee": "liste de l'ami",
+   "niche": "comparaison Semrush",
+   "mots_cles": [
+    "rasoir électrique"
+   ],
+   "lot": "comparaison ami 18/11/2026",
+   "comparaison": {
+    "volume_semrush": 45000,
+    "cpc_semrush": 0.35
+   }
+  },
+  {
+   "produit": "toupie beyblade (ami)",
+   "idee": "liste de l'ami",
+   "niche": "comparaison Semrush",
+   "mots_cles": [
+    "toupie beyblade",
+    "kit toupie beyblade",
+    "beyblade"
+   ],
+   "lot": "comparaison ami 18/11/2026",
+   "comparaison": {
+    "volume_semrush": 22200,
+    "cpc_semrush": 0.09
+   }
+  },
+  {
+   "produit": "casque moto vintage (ami)",
+   "idee": "liste de l'ami",
+   "niche": "comparaison Semrush",
+   "mots_cles": [
+    "casque moto vintage",
+    "casque moto vintage cuir",
+    "casque moto"
+   ],
+   "lot": "comparaison ami 18/11/2026",
+   "comparaison": {
+    "volume_semrush": 67000,
+    "cpc_semrush": 0.19
+   }
+  },
+  {
+   "produit": "thermomètre intérieur (ami)",
+   "idee": "liste de l'ami",
+   "niche": "comparaison Semrush",
+   "mots_cles": [
+    "thermomètre intérieur",
+    "thermomètre maison"
+   ],
+   "lot": "comparaison ami 18/11/2026",
+   "comparaison": {
+    "volume_semrush": 12000,
+    "cpc_semrush": 0.14
+   }
+  },
+  {
+   "produit": "rideaux (ami)",
+   "idee": "liste de l'ami",
+   "niche": "comparaison Semrush",
+   "mots_cles": [
+    "rideaux pour fenêtre",
+    "rideau fenêtre",
+    "rideaux",
+    "rideau"
+   ],
+   "lot": "comparaison ami 18/11/2026",
+   "comparaison": {
+    "volume_semrush": 40500,
+    "cpc_semrush": 0.42
+   }
+  },
+  {
+   "produit": "pulseur pour chien (ami)",
+   "idee": "liste de l'ami",
+   "niche": "comparaison Semrush",
+   "mots_cles": [
+    "pulseur chien",
+    "séchoir pour chien",
+    "souffleur chien"
+   ],
+   "lot": "comparaison ami 18/11/2026",
+   "comparaison": {
+    "volume_semrush": 16000,
+    "cpc_semrush": 0.18
+   }
+  },
+  {
+   "produit": "panier pour chien (ami)",
+   "idee": "liste de l'ami",
+   "niche": "comparaison Semrush",
+   "mots_cles": [
+    "panier pour chien",
+    "panier chien"
+   ],
+   "lot": "comparaison ami 18/11/2026",
+   "comparaison": {
+    "volume_semrush": 8000,
+    "cpc_semrush": 0.29
+   }
+  },
+  {
+   "produit": "robinet de salle de bain (ami)",
+   "idee": "liste de l'ami",
+   "niche": "comparaison Semrush",
+   "mots_cles": [
+    "robinet salle de bain",
+    "robinet lavabo"
+   ],
+   "lot": "comparaison ami 18/11/2026",
+   "comparaison": {
+    "volume_semrush": 20000,
+    "cpc_semrush": 0.4
+   }
+  },
+  {
+   "produit": "coffre-fort (ami)",
+   "idee": "liste de l'ami",
+   "niche": "comparaison Semrush",
+   "mots_cles": [
+    "coffre fort"
+   ],
+   "lot": "comparaison ami 18/11/2026",
+   "comparaison": {
+    "volume_semrush": 33100,
+    "cpc_semrush": 0.79
+   }
+  },
+  {
+   "produit": "armoire (ami)",
+   "idee": "liste de l'ami",
+   "niche": "comparaison Semrush",
+   "mots_cles": [
+    "armoire"
+   ],
+   "lot": "comparaison ami 18/11/2026",
+   "comparaison": {
+    "volume_semrush": 100000,
+    "cpc_semrush": 0.2
+   }
   }
  ]
 }
