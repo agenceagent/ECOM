@@ -15,6 +15,7 @@ import json
 import os
 import statistics
 import sys
+import unicodedata
 import urllib.parse
 import urllib.request
 from collections import defaultdict
@@ -45,6 +46,31 @@ def lire_idees():
         return json.load(f)["idees"]
 
 
+def sans_accent(s):
+    return unicodedata.normalize("NFD", s).encode("ascii", "ignore").decode()
+
+
+def pluriel_bascule(s):
+    """Bascule singulier/pluriel du premier mot : « lunettes de x » <-> « lunette de x »."""
+    premier, _, reste = s.partition(" ")
+    if len(premier) < 4 or premier.endswith(("x", "z")):
+        return s
+    premier = premier[:-1] if premier.endswith("s") else premier + "s"
+    return (premier + " " + reste).strip()
+
+
+def variantes(idee):
+    """Mots-clés de la liste, plus automatiquement : version sans accent, singulier/pluriel du premier mot,
+    et ces deux combinées. Google regroupe parfois ces formes, parfois non : on les teste toujours,
+    le dédoublonnage évite de compter deux fois celles qu'il regroupe."""
+    res = []
+    for k in idee["mots_cles"]:
+        for v in (k, sans_accent(k), pluriel_bascule(k), sans_accent(pluriel_bascule(k))):
+            if len(v) <= 80 and v.lower() not in (r.lower() for r in res):
+                res.append(v)
+    return res
+
+
 def http_json(url, data=None, headers=None):
     req = urllib.request.Request(url, data=data, headers=headers or {})
     try:
@@ -71,7 +97,7 @@ def fetch():
     idees = lire_idees()
     mots = []
     for i in idees:
-        for k in i["mots_cles"]:
+        for k in variantes(i):
             if k.lower() not in (m.lower() for m in mots):
                 mots.append(k)
     aujourd_hui = dt.date.today()
@@ -134,12 +160,12 @@ def analyser(chemin):
         items[it["keyword"].lower()] = it
     lignes = []
     for idee in lire_idees():
-        variantes = []
-        for k in idee["mots_cles"]:
+        trouves = []
+        for k in variantes(idee):
             it = items.get(k.lower())
             if it and it.get("search_volume") is not None:
-                variantes.append(it)
-        if not variantes:
+                trouves.append(it)
+        if not trouves:
             lignes.append({"produit": idee["produit"], "niche": idee["niche"], "statut": "",
                            "commentaire": "Google ne fournit aucun chiffre pour ces mots-clés : à vérifier dans OneClickBrand.",
                            "volume_detail": "Aucun chiffre Google (" + ", ".join(idee["mots_cles"]) + ")",
@@ -148,7 +174,7 @@ def analyser(chemin):
             continue
         # Dédoublonnage : mêmes chiffres mois par mois = variantes que Google regroupe déjà
         groupes, signatures, regroupees = [], {}, []
-        for it in variantes:
+        for it in trouves:
             sig = (it["search_volume"], tuple((x["year"], x["month"], x["search_volume"]) for x in (it.get("monthly_searches") or [])))
             if sig in signatures:
                 regroupees.append((it["keyword"], signatures[sig]))
