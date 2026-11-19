@@ -59,8 +59,11 @@ def synthese(lot, vx2):
             lignes_note.append(f"Règle achat × 3 : {euros(achat[0])} × 3 = {euros(achat[0] * 3)} ; le concurrent vend {euros(prix_conc)} (coefficient {coef}).")
         if v.get("remarque"):
             lignes_note.append(v["remarque"])
-        nb = len({(s, url) for _, _, s, url, _ in choisis})
-        lignes_note.append(f"Critère 2 fournisseurs : {'OK' if nb >= 2 else 'NON (un seul)'} ; sources : {', '.join(sorted(sources))}.")
+        # Ne comptent pour le critère que les fournisseurs du même type de produit (pas « autre technologie »)
+        valables = {(s, url) for _, niv, s, url, _ in choisis if niv.startswith(RETENUS + ("même type",))}
+        nb = len(valables)
+        etat = "OK" if nb >= 2 else ("NON (un seul)" if nb == 1 else "NON (aucun du même type)")
+        lignes_note.append(f"Critère 2 fournisseurs : {etat} ; sources : {', '.join(sorted({s for s, _ in valables})) or 'aucune'}.")
         sortie[ligne] = {
             "produit": r["produit"],
             "C": "\n".join(url for _, _, _, url, _ in choisis),

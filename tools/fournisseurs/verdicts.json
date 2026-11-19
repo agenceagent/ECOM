@@ -57,6 +57,10 @@
          "remarque": "Le concurrent vend un sèche-serviettes électrique, pas un simple porte-serviette (la grille a aussi une ligne « sèche-serviette »). Un seul fournisseur trouvé pour l'instant : les autres résultats AliExpress sont des barres non chauffantes, et VidaXL ne vend que des sèche-serviettes à eau chaude."},
   "35": {"choix": [["A1", "identique (WOLTU, 7/9/11 kg)"], ["A3", "identique (WOLTU)"], ["A2", "identique (WOLTU)"]],
          "remarque": "Le concurrent revend une couverture de la marque WOLTU (7 kg à 134,09 €, 11 kg à 143,99 €). Le prix AliExpress affiché est sans doute celui du 7 kg. VidaXL ne vend que des plaids non lestés."},
+  "37": {"choix": [["A1", "identique (murale encastrable, flamme 3D)"], ["A5", "identique (50 pouces)"], ["A2", "identique (HiMISS, prix du 30 pouces)"]],
+         "remarque": "Même cheminée chez au moins quatre vendeurs AliExpress. VidaXL ne vend que des cheminées avec meuble (habillage bois), pas d'insert mural."},
+  "38": {"choix": [["A5", "autre technologie : même apparence, mais cheminée à vapeur d'eau, pas au bioéthanol"], ["A4", "autre technologie : vapeur d'eau, annoncée en stock en Europe (3 à 7 jours)"]],
+         "remarque": "Aucun brûleur bioéthanol automatique trouvé par recherche d'image : AliExpress renvoie des cheminées électriques à vapeur d'eau (259 à 349 €) qui imitent ce look. Le concurrent vend 2 449,99 €. Le bioéthanol est un combustible inflammable, avec une norme de sécurité dédiée (EN 16647) : produit à risque pour débuter."},
   "15": {"choix": [["A3", "identique"], ["A1", "identique"], ["A4", "identique"]],
          "remarque": "Même photo chez plusieurs vendeurs AliExpress. VidaXL ne vend pas de sacoches."}
  }
