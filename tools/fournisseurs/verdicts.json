@@ -51,6 +51,12 @@
          "remarque": "VidaXL ne vend pas de robes adultes. Mode : prévoir les tailles et les retours."},
   "31": {"choix": [["A1", "identique (Formill QK116C)"], ["A5", "identique"], ["A4", "équivalent (Formill QK101, annoncé expédié depuis l'UE en 3 à 5 jours)"]],
          "remarque": "VidaXL a un vélo de spinning noir et rouge à 272,99 €, plus cher que le concurrent : non retenu."},
+  "32": {"choix": [["Y1", "identique (gris béton 30x30x190, pieds métal)"], ["A5", "identique (coloris chêne Sonoma)"], ["A4", "identique (coloris chêne Sonoma)"], ["A1", "identique (gris) mais trop cher"]],
+         "remarque": "Le concurrent revend la colonne VidaXL (même photo, mêmes dimensions) à 189 €. VidaXL la vend aussi avec d'autres pieds (95,99 à 119,99 €)."},
+  "34": {"choix": [["A1", "identique (sèche-serviettes électrique encastré, or brossé, 4 barres, commande tactile)"]],
+         "remarque": "Le concurrent vend un sèche-serviettes électrique, pas un simple porte-serviette (la grille a aussi une ligne « sèche-serviette »). Un seul fournisseur trouvé pour l'instant : les autres résultats AliExpress sont des barres non chauffantes, et VidaXL ne vend que des sèche-serviettes à eau chaude."},
+  "35": {"choix": [["A1", "identique (WOLTU, 7/9/11 kg)"], ["A3", "identique (WOLTU)"], ["A2", "identique (WOLTU)"]],
+         "remarque": "Le concurrent revend une couverture de la marque WOLTU (7 kg à 134,09 €, 11 kg à 143,99 €). Le prix AliExpress affiché est sans doute celui du 7 kg. VidaXL ne vend que des plaids non lestés."},
   "15": {"choix": [["A3", "identique"], ["A1", "identique"], ["A4", "identique"]],
          "remarque": "Même photo chez plusieurs vendeurs AliExpress. VidaXL ne vend pas de sacoches."}
  }

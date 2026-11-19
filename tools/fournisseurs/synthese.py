@@ -3,7 +3,7 @@ le texte de la colonne C (liens), le prix d'achat (colonne D), le délai (colonn
 et une note de cellule (niveau de ressemblance, prix, prix du concurrent, règle achat × 3).
 Les numéros de ligne sont ceux de la grille au moment du lot : l'apprenant a pu supprimer des lignes
 depuis, donc on écrit dans la grille en retrouvant chaque produit par son nom (colonne A).
-Usage : python3 -I synthese.py DOSSIER_LOT DOSSIER_VIDAXL2 [sortie.json]"""
+Usage : python3 -I synthese.py DOSSIER_LOT DOSSIER_VX2,DOSSIER_VX3 [sortie.json]"""
 import json
 import os
 import sys
@@ -26,11 +26,13 @@ def candidats(lot, vx2, ligne):
     for i, v in enumerate(r.get("vidaxl") or [], 1):
         if v.get("url"):
             c[f"V{i}"] = ("VidaXL", v["url"], v.get("prix"))
-    f2 = os.path.join(vx2, f"ligne{ligne}.json")
-    if os.path.exists(f2):
-        for i, v in enumerate(json.load(open(f2, encoding="utf-8")).get("vidaxl") or [], 1):
-            if v.get("url"):
-                c[f"X{i}"] = ("VidaXL", v["url"], v.get("prix"))
+    # Recherches VidaXL plus précises faites ensuite : X = 1re reprise (vx2), Y = 2e reprise (vx3)
+    for lettre, dossier in zip("XY", vx2):
+        f2 = os.path.join(dossier, f"ligne{ligne}.json")
+        if os.path.exists(f2):
+            for i, v in enumerate(json.load(open(f2, encoding="utf-8")).get("vidaxl") or [], 1):
+                if v.get("url"):
+                    c[f"{lettre}{i}"] = ("VidaXL", v["url"], v.get("prix"))
     return r, c
 
 
@@ -73,7 +75,7 @@ def synthese(lot, vx2):
 
 
 if __name__ == "__main__":
-    res = synthese(sys.argv[1], sys.argv[2])
+    res = synthese(sys.argv[1], sys.argv[2].split(","))
     if len(sys.argv) > 3:
         json.dump(res, open(sys.argv[3], "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     for ligne, s in res.items():
