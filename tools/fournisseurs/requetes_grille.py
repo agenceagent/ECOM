@@ -20,6 +20,9 @@ requetes, journal = [], []
 for ligne_lot, s in synth.items():
     if filtre and ligne_lot not in filtre:
         continue
+    if not s["C"]:
+        journal.append(f"{s['produit']} : aucun fournisseur retenu pour l'instant, rien écrit")
+        continue
     ligne = rang.get(s["produit"].strip().lower())
     if not ligne:
         journal.append(f"{s['produit']} : introuvable dans la colonne A, rien écrit")

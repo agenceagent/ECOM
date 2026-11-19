@@ -41,6 +41,10 @@
          "remarque": "Le même appareil chez au moins cinq vendeurs AliExpress. VidaXL ne vend que des machines professionnelles de 45 kg (393 €). Le concurrent comparé (Gastro-Hero) est un grossiste pour la restauration, pas un dropshipper."},
   "22": {"choix": [["A2", "identique (20 L à compresseur)"], ["A6", "identique (Foursun)"], ["A1", "identique"], ["V2", "même type (30 L à compresseur, à roues)"]],
          "remarque": "Même glacière à compresseur chez plusieurs vendeurs AliExpress. VidaXL a une glacière à compresseur de 30 L à roues (modèle différent)."},
+  "23": {"choix": [],
+         "remarque": "Recherche par image ratée : la photo du concurrent montre surtout la tenue de sport. À relancer avec une photo du tapis seul."},
+  "26": {"choix": [["A6", "quasi identique (XJ-HOME H01, haut-parleurs en façade)"], ["A4", "quasi identique (XJ-HOME H01)"], ["A1", "même type (Maio, bois, sans façade haut-parleurs)"]],
+         "remarque": "Le modèle le plus ressemblant coûte 149 à 154 € : la règle achat × 3 ne passe pas face au concurrent à 249 €. Une platine plus simple (Maio, 68 €) la passerait. VidaXL ne vend que des meubles à vinyles."},
   "15": {"choix": [["A3", "identique"], ["A1", "identique"], ["A4", "identique"]],
          "remarque": "Même photo chez plusieurs vendeurs AliExpress. VidaXL ne vend pas de sacoches."}
  }
