@@ -45,6 +45,8 @@
          "remarque": "Recherche par image ratée : la photo du concurrent montre surtout la tenue de sport. À relancer avec une photo du tapis seul."},
   "26": {"choix": [["A6", "quasi identique (XJ-HOME H01, haut-parleurs en façade)"], ["A4", "quasi identique (XJ-HOME H01)"], ["A1", "même type (Maio, bois, sans façade haut-parleurs)"]],
          "remarque": "Le modèle le plus ressemblant coûte 149 à 154 € : la règle achat × 3 ne passe pas face au concurrent à 249 €. Une platine plus simple (Maio, 68 €) la passerait. VidaXL ne vend que des meubles à vinyles."},
+  "28": {"choix": [["A2", "identique"], ["A1", "identique"], ["A4", "identique"]],
+         "remarque": "Attention : c'est une copie du porte-bébé Omni 360 de la marque Ergobaby (même logo, nom « Egobaby ») : risque de contrefaçon, et la puériculture est soumise à des normes de sécurité. Ce n'est pas non plus un porte-bébé de randonnée (à armature) mais un porte-bébé ventral. VidaXL n'en vend pas."},
   "15": {"choix": [["A3", "identique"], ["A1", "identique"], ["A4", "identique"]],
          "remarque": "Même photo chez plusieurs vendeurs AliExpress. VidaXL ne vend pas de sacoches."}
  }
