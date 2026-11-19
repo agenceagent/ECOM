@@ -1,0 +1,8 @@
+{
+ "_lisez_moi": "Rattrapage du 19/11/2026 : recherches par image ratées au premier passage (la première photo du concurrent montrait autre chose que le produit). image = photo du produit seul, tirée de la fiche du concurrent.",
+ "produits": [
+  {"ligne": 27, "produit": "table d'appoint", "concurrent": "https://www.briaq.fr/products/table-dappoint", "image": "/tmp/claude-0/-home-user-ECOM/23a6d0fd-8c04-53d0-845b-245529c059b9/scratchpad/rattrapage/t27.jpg"},
+  {"ligne": 23, "produit": "tapis de marche", "concurrent": "https://gymoova.com/products/tapis-de-marche-inclinable", "image": "/tmp/claude-0/-home-user-ECOM/23a6d0fd-8c04-53d0-845b-245529c059b9/scratchpad/rattrapage/t23a.jpg"},
+  {"ligne": 34, "produit": "porte-serviette", "concurrent": "https://olverton.com/products/seche-serviettes-electrique-encastre-rio", "image": "/tmp/claude-0/-home-user-ECOM/23a6d0fd-8c04-53d0-845b-245529c059b9/scratchpad/rattrapage/t34.jpg"}
+ ]
+}

@@ -4,6 +4,7 @@
 // 3) si demandé, recherche texte VidaXL (4 premiers résultats).
 // Pause entre deux recherches AliExpress ; en cas de blocage (captcha, connexion), une seule
 // nouvelle tentative après une longue pause, puis arrêt. On ne contourne jamais un captcha.
+// Champ facultatif « image » (fichier local) : photo à utiliser à la place de la première photo du concurrent.
 // Usage : PWPATH=$(npm root -g)/playwright node lot_recherche.js lot.json DOSSIER_SORTIE [ligne_de_depart]
 const { chromium } = require(process.env.PWPATH);
 const fs = require("fs");
@@ -114,6 +115,8 @@ async function rechercheVidaxl(browser, motcle) {
     if (fs.existsSync(fiche) && JSON.parse(fs.readFileSync(fiche)).aliexpress) { console.log(nom, "déjà fait"); continue; }
     const r = { ligne: p.ligne, produit: p.produit };
     r.concurrent = await concurrent(req, p.concurrent, path.join(out, nom + "-concurrent.img"));
+    // Photo imposée (fichier local) quand la première photo du concurrent montre autre chose que le produit
+    if (p.image) { r.concurrent.fichier = p.image; r.concurrent.image_imposee = p.image; }
     if (r.concurrent.fichier) {
       let a = await rechercheImage(browser, r.concurrent.fichier);
       if (a.bloque) { console.log(nom, "bloqué :", a.bloque, "- pause longue puis 2e essai"); await dormir(PAUSE_BLOCAGE); a = await rechercheImage(browser, r.concurrent.fichier); }

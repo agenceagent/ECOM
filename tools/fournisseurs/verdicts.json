@@ -61,6 +61,10 @@
          "remarque": "Même cheminée chez au moins quatre vendeurs AliExpress. VidaXL ne vend que des cheminées avec meuble (habillage bois), pas d'insert mural."},
   "38": {"choix": [["A5", "autre technologie : même apparence, mais cheminée à vapeur d'eau, pas au bioéthanol"], ["A4", "autre technologie : vapeur d'eau, annoncée en stock en Europe (3 à 7 jours)"]],
          "remarque": "Aucun brûleur bioéthanol automatique trouvé par recherche d'image : AliExpress renvoie des cheminées électriques à vapeur d'eau (259 à 349 €) qui imitent ce look. Le concurrent vend 2 449,99 €. Le bioéthanol est un combustible inflammable, avec une norme de sécurité dédiée (EN 16647) : produit à risque pour débuter."},
+  "48": {"choix": [["A1", "identique (180 cm, base à remplir)"], ["A2", "identique"], ["A6", "identique"]],
+         "remarque": "Même sac de frappe chez au moins cinq vendeurs AliExpress. VidaXL ne vend que des supports et des poires de vitesse."},
+  "44": {"choix": [["A1", "identique (Granbo, même cuve), mais en 6,5 L : plus petite taille que le 15 L du concurrent"], ["A4", "identique (Granbo), en 6,5 L : plus petite taille"], ["A5", "identique (Granbo), en 4,5 L : plus petite taille"]],
+         "remarque": "Le concurrent vend la cuve Granbo de 15 L. Les annonces AliExpress trouvées affichent le prix des petites tailles (4,5 à 6,5 L) : relever le prix du 15 L avant de calculer la marge. VidaXL n'en vend pas."},
   "15": {"choix": [["A3", "identique"], ["A1", "identique"], ["A4", "identique"]],
          "remarque": "Même photo chez plusieurs vendeurs AliExpress. VidaXL ne vend pas de sacoches."}
  }
