@@ -4,10 +4,26 @@ Usage : python3 -I planches_lot.py DOSSIER_DU_LOT [ligne ...]"""
 import io
 import json
 import os
+import re
 import sys
 import urllib.request
 
 from PIL import Image, ImageDraw
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from prix import premier_prix  # noqa: E402
+
+
+def page_vidaxl(url):
+    """Photo et prix d'une fiche VidaXL (le prix est dans les données structurées de la page)."""
+    try:
+        h = urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 Chrome/124"}), timeout=40).read().decode("utf-8", "replace")
+    except Exception:
+        return None, None
+    img = (re.search(r'og:image" content="([^"]+)"', h) or [None, None])[1]
+    p = re.search(r'"price":\s*"?([0-9.]+)', h)
+    return img, (float(p.group(1)) if p else None)
+
 
 dossier = sys.argv[1]
 lignes = sys.argv[2:]
@@ -31,6 +47,15 @@ for f in sorted(os.listdir(dossier)):
     if lignes and f[5:-5] not in lignes:
         continue
     r = json.load(open(os.path.join(dossier, f), encoding="utf-8"))
+    # Prix AliExpress relus avec la lecture corrigée ; fiches VidaXL complétées (photo, prix)
+    for a in (r.get("aliexpress") or {}).get("resultats") or []:
+        a["prix"] = premier_prix(a.get("texte"))
+    for v in r.get("vidaxl") or []:
+        if v.get("url") and (not v.get("img") or v.get("prix") is None):
+            img, px = page_vidaxl(v["url"])
+            v["img"] = v.get("img") or img
+            v["prix"] = v.get("prix") if v.get("prix") is not None else px
+    json.dump(r, open(os.path.join(dossier, f), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     cases = []
     c = r.get("concurrent", {})
     if c.get("fichier") and os.path.exists(c["fichier"]):
