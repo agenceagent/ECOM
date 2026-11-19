@@ -1,0 +1,11 @@
+{
+ "_lisez_moi": "Corrections au relevé automatique des prix de vente (19/11/2026). exclus = lien qui ne correspond pas au produit de la ligne (erreur de copier-coller probable) : il n'entre pas dans la moyenne et c'est signalé à l'apprenant. manuel = prix lu à l'écran dans un navigateur quand la lecture automatique a échoué.",
+ "exclus": {
+  "https://ultimadesk.fr/products/bureau-assis-debout-ultimadesk-t300?variant=60289385398656|55": "bureau assis-debout collé dans la ligne lit cabane",
+  "https://poulaillersur.fr/products/porte-automatique-poulailler?variant=58872354308421|48": "porte automatique de poulailler, pas un poulailler",
+  "https://shop.planika.com/fr-eu/products/chantico-glassfire?variant=54231557341507|37": "petite cheminée de table au bioéthanol, pas une cheminée électrique murale"
+ },
+ "manuel": {
+  "https://www.gruchat.com/arbre-a-chat?couleur=anthracite&taille=164": {"prix": 194.99, "titre": "Arbre à chat design en bois massif 164 cm anthracite (prix Black Friday, au lieu de 299,99 €)"}
+ }
+}

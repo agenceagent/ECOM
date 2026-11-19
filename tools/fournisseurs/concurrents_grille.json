@@ -1,0 +1,145 @@
+{
+ "_lisez_moi": "Concurrents relevés par l'apprenant en colonne G de la grille (relevé du 19/11/2026), liens nettoyés des paramètres de pub. variant = variante pointée par le lien (sinon la variante par défaut). Lignes sans lien (« MARQUE », « 0 concu », etc.) non reprises.",
+ "lignes": [
+  {"ligne": 8, "produit": "brasero", "urls": [
+   "https://bricovibe.com/products/brasero-sans-fumee-inox-50-cm-grille-sac-transport?variant=55254175023442",
+   "https://outdoorbraise.com/products/brasero-ebene?variant=53908974829907",
+   "https://lecomptoirdefrance.com/products/pack-printemps-classique-acier-grill-chic?variant=54231655153989",
+   "https://livlig.com/fr-fr/products/brasero-sans-fumee-avec-couvercle?variant=53244114206987"]},
+  {"ligne": 9, "produit": "chaise ergonomique", "urls": [
+   "https://montians.com/products/rmf-professional-ergonomic?variant=66283542315357",
+   "https://sitandstep.fr/products/ergo-recline-135-fauteuil-de-bureau-multi-positions-avec-repose-pieds?variant=58247813366024"]},
+  {"ligne": 10, "produit": "cave à vin", "urls": [
+   "https://espritvin.com/products/cave-a-vin-32-bouteilles?variant=58003598901579",
+   "https://ateliercavemillesime.com/products/products-buffet-bar-a-vin-porte-bouteilles?variant=54968250761559"]},
+  {"ligne": 11, "produit": "barbecue", "urls": [
+   "https://bricovibe.com/products/barbecue-kamado-ceramique-56-cm-grill-fumoir-charbon?variant=55254153593170",
+   "https://www.access-garden.com/products/barbecue-cloche?variant=57817316458841"]},
+  {"ligne": 12, "produit": "ventilateur de plafond", "urls": [
+   "https://maisonlustre.fr/products/ventilateur-plafond-3-pales-bois-massif-106-cm?variant=60931244130638",
+   "https://www.silamp.fr/products/ventilateur-de-plafond-led-18w-cct-blanc-bois-clair-telecommande-122cm?variant=57263817621879",
+   "https://www.sansoti.com/fr-fr/products/ventilateur-de-plafond-elena-eclairage?variant=53523566756168"]},
+  {"ligne": 13, "produit": "échiquier", "urls": [
+   "https://jeuxdheritage.fr/products/jeu-d-echecs-en-bois-massif-a-tiroirs-le-continent?variant=67595621040518",
+   "https://maisonnoirval.com/products/echiquier-pliant-bois-massif?variant=63455274598730",
+   "https://www.lechiquierdufou.fr/products/jeu-echecs-haut-de-gamme-36-cm-pieces-metal-rangement?variant=55978527654230",
+   "https://maisondelechiquier.com/products/jeu-dechecs-magnetique-en-bois-de-charme-pliant-de-grande-taille-35-x-35cm-ensemble-complet?variant=55220902166867"]},
+  {"ligne": 15, "produit": "sacoche ordinateur", "urls": [
+   "https://maison-majda.com/products/sac-ordinateur-portable-en-cuir-pleine-fleur-15-pouces?variant=48389850202318"]},
+  {"ligne": 17, "produit": "déshumidificateur", "urls": [
+   "https://airaly.fr/products/deshumidificateur-evacuation-continue-1l?variant=59189602124040",
+   "https://secalio.com/products/deshumidificateur-force-10",
+   "https://humivair.com/products/deshumidificateur-intelligent-2-en-1-purificateur?variant=53508945117511"]},
+  {"ligne": 18, "produit": "purificateur d'air", "urls": [
+   "https://climeor.com/products/purificateur-air-humidificateur?variant=62906237157706"]},
+  {"ligne": 19, "produit": "shampouineuse", "urls": [
+   "https://www.danay.fr/products/nettoyeur-canape-tapis-hydroclean-v8?variant=56673344323924",
+   "https://kovyro.fr/products/nettoyeur-tapis-portable?variant=59656680309084",
+   "https://puralyo.com/products/shampouineuse-canape-puralyo-ultra-vapeur?variant=58347140776318"]},
+  {"ligne": 20, "produit": "machine à glaçons", "urls": [
+   "https://www.gastro-hero.fr/products/machine-a-glacons-creux-eco-15-kg-hkeb-eco15"]},
+  {"ligne": 22, "produit": "glacière électrique", "urls": [
+   "https://cavecomptoir.com/products/le-baroudeur-glaciere-electrique-a-compresseur-20-l?variant=55192255889755"]},
+  {"ligne": 23, "produit": "tapis de marche", "urls": [
+   "https://hantx.fr/products/s2?variant=54623770739027",
+   "https://gymoova.com/products/tapis-de-marche-inclinable?variant=55714060337494",
+   "https://www.sportstech.de/fr-fr/products/spad1000-tapis-de-course?variant=52970285924694",
+   "https://motivaboutique.com/products/tapis-de-marche-inclinable-9-pourcents-silencieux"]},
+  {"ligne": 26, "produit": "platine vinyle", "urls": [
+   "https://laboiteconcept.com/products/platine-vinyle-square-cc-chene?variant=55328356073858",
+   "https://faubourgvinyle.com/products/platine-vinyle-bastille-compacte-bluetooth?variant=64969888530809",
+   "https://vinylae.com/products/platine-vinyle-retro?variant=54892674449745",
+   "https://lecrinduvinyle.com/products/platine-vinyle-bluetooth-3-vitesses-haut-parleurs-integres-et-sortie-rca?variant=57078709059924",
+   "https://lecomptoirduvinyle.com/products/anouk-platine-vinyle-valise-bluetooth-3-vitesses?variant=57270480732500"]},
+  {"ligne": 27, "produit": "table d'appoint", "urls": [
+   "https://eikinterior.com/products/produit-613623?variant=64537443434873",
+   "https://www.tizu.fr/products/la-table-montchat?variant=53371759919432",
+   "https://tableetmatiere.com/products/table-d-appoint-torsadee-en-bois-massif-emma?variant=53932188926218",
+   "https://www.briaq.fr/products/table-dappoint?variant=57773897843033"]},
+  {"ligne": 28, "produit": "porte-bébé de randonnée", "urls": [
+   "https://mama-hangs.com/products/porte-bebe-evolutif-carry-bloom-jacquard?variant=47350205514036",
+   "https://sportshub.fr/products/osprey-poco-child-carrier-premium-verde",
+   "https://bebellia.fr/products/porte-bebe-ergonomique-noir-confort?variant=57860277141852"]},
+  {"ligne": 29, "produit": "bain de soleil", "urls": [
+   "https://kebek.fr/products/fauteuil-adirondack-avec-son-repose-pieds",
+   "https://berahgetah.com/products/bain-de-soleil-en-teck-massif?variant=49563108311368",
+   "https://vibesdelmundo.com/fr/products/laguna-sun-lounger?variant=46237797941515"]},
+  {"ligne": 30, "produit": "robe de soirée", "urls": [
+   "https://www.clo-la.com/en-eu/products/cassie-dress?variant=48085678358787",
+   "https://clementparis.com/products/robe-longue-femme-asymetrique-epaule-denudee?variant=58591069569288"]},
+  {"ligne": 31, "produit": "vélo d'appartement", "urls": [
+   "https://www.sportstech.de/fr-fr/products/sportstech-sbike?variant=52970373284182",
+   "https://gymoova.com/products/velo-appartement-spinning?variant=56382289641814"]},
+  {"ligne": 32, "produit": "colonne de salle de bain", "urls": [
+   "https://www.decoclico.fr/FR-fr/etagere-colonne-en-metal-noir-mat-180-cm-douglas--08801226",
+   "https://berahgetah.com/products/colonne-de-salle-de-bain-en-teck?variant=49559697981768",
+   "https://doucheflow.com/products/colonne-de-rangement-salle-de-bain?variant=58301793304916"]},
+  {"ligne": 34, "produit": "porte-serviette", "urls": [
+   "https://olverton.com/products/seche-serviettes-electrique-encastre-rio?variant=59793874059609"]},
+  {"ligne": 35, "produit": "couverture lestée", "urls": [
+   "https://lunelestee.com/products/couverture-lestee-adulte?variant=67693488472455",
+   "https://lunex-officiel.com/products/couverture-easysleep%C2%AE-la-couette-2-en-1-a-sechage-rapide-qui-elimine-le-besoin-de-draps?variant=53876940800337",
+   "https://laissetoilestee.fr/products/couverture-lestee-hivernale?variant=55179573428557"]},
+  {"ligne": 37, "produit": "cheminée électrique", "urls": [
+   "https://flamvia.com/products/cheminee-electrique-murale-slim-full-glass?variant=59278192607580",
+   "https://www.feuintense.com/products/hematite-cheminee-electrique-murale-ou-encastrable?variant=55236271112534",
+   "https://nebuleu.com/products/cheminee-electrique-murale-encastrable?variant=59654150324569",
+   "https://shop.planika.com/fr-eu/products/chantico-glassfire?variant=54231557341507"]},
+  {"ligne": 38, "produit": "cheminée éthanol", "urls": [
+   "https://www.feuintense.com/products/mica-cheminee-bioethanol-murale-suspendue?variant=55173026611542",
+   "https://flamvia.com/products/bruleur-bioethanol-automatique?variant=59278196736348"]},
+  {"ligne": 41, "produit": "filtre à eau", "urls": [
+   "https://fluide.fr/products/coffret-filtre-invisible?variant=62619229356381",
+   "https://pure-osmose.com/products/fontaine-eau-osmosee-ro-moon-pureosmose?variant=57211109081466"]},
+  {"ligne": 42, "produit": "nettoyeur à ultrasons", "urls": [
+   "https://www.ultracleanpro.fr/products/cuve-ultrasons-15l-blocs-alu-grosses-pieces?variant=58431986303359"]},
+  {"ligne": 46, "produit": "sac de frappe", "urls": [
+   "https://www.arvoxsport.com/products/sac-de-frappe-complet?variant=58037427142988",
+   "https://homeboxing.fr/products/sac-de-frappe-suspendu-boxe?variant=57301788361052",
+   "https://www.maisonduboxeur.fr/products/sac-de-frappe-suspendu-kit-fixation-complet?variant=56424798552450",
+   "https://scoryx.fr/products/sac-de-frappe-autoportant?variant=58963914948953"]},
+  {"ligne": 47, "produit": "four à pizza d'extérieur", "urls": [
+   "https://ziipa.fr/products/piana-four-a-pizza-a-pellets-terracotta",
+   "https://eu.ooni.com/fr-fr/products/ooni-karu-2?variant=44159094751500",
+   "https://www.gastro-hero.fr/products/four-a-pizza-basic-2-x-35-cm-yep2st",
+   "https://outdoorchef-france.fr/products/four-a-pizza-prismo-30mbar"]},
+  {"ligne": 48, "produit": "poulailler", "urls": [
+   "https://lepoulaillerducoin.fr/products/poulailler-en-pin-massif-marron-avec-tiroir-de-nettoyage?variant=55875696689481",
+   "https://galleo.fr/products/poulailler-en-bois-de-pin?variant=53394104189264",
+   "https://poulaillersur.fr/products/porte-automatique-poulailler?variant=58872354308421"]},
+  {"ligne": 49, "produit": "serre de jardin", "urls": [
+   "https://recoltesetserres.fr/products/l-authentique?variant=61753708347722",
+   "https://serrenature.com/products/serre-de-jardin-natura?variant=53445894865233"]},
+  {"ligne": 50, "produit": "abri de jardin", "urls": [
+   "https://patiowellshop.fr/products/patiowell-6x3-6-ft-abri-de-jardin-en-metal-avec-portes-coulissantes-doubles-et-base-argent?variant=57611098095782",
+   "https://bricovibe.com/products/abri-de-jardin-metal-8x10-pieds-porte-verrouillable-fenetre?variant=55254012232018"]},
+  {"ligne": 51, "produit": "salon de jardin", "urls": [
+   "https://bricovibe.com/products/salon-de-jardin-modulable-resine-tressee-5-pieces-4-places?variant=55253961310546",
+   "https://berahgetah.com/products/salon-de-jardin-en-acacia-massif-huile-6-pers?variant=52812948439368"]},
+  {"ligne": 52, "produit": "trampoline", "urls": [
+   "https://www.springfreetrampoline.fr/products/trampoline-rond-moyen?variant=46374540771583"]},
+  {"ligne": 54, "produit": "bureau assis-debout", "urls": [
+   "https://yaasa.com/en-fr/products/desk-lite?variant=50563015803213",
+   "https://ultimadesk.fr/products/bureau-assis-debout-ultimadesk-t200?variant=58731562074496",
+   "https://ultimadesk.fr/products/bureau-assis-debout-ultimadesk-t300?variant=60289385398656",
+   "https://ultradesk.fr/produit/pulsar/?attribute_pa_kolor=schwarz-fr"]},
+  {"ligne": 55, "produit": "lit cabane Montessori", "urls": [
+   "https://petitpin.fr/185-lit-enfant-riga.html",
+   "https://ultimadesk.fr/products/bureau-assis-debout-ultimadesk-t300?variant=60289385398656",
+   "https://niddelune.com/products/lit-cabane-enfant-lucky-toit-lateral-barriere-avant?variant=58201273205076",
+   "https://boisetmerveilles.com/products/lit-cabane-70x140-pin-massif-prune-maison-avec-barriere-a-barreaux?variant=63244995232131",
+   "https://atelierlitcabane.com/products/lit-cabane-clairiere?variant=64396186517881"]},
+  {"ligne": 56, "produit": "arbre à chat", "urls": [
+   "https://www.gruchat.com/arbre-a-chat?couleur=anthracite&taille=164",
+   "https://royalmilo.com/products/arbre-a-chat-xxl-172-5-cm-9-niveaux-multi-chats?variant=63800901697866",
+   "https://zhanimos.com/products/arbre-a-chat-solis-150-cm?variant=53886453154125",
+   "https://feliq.fr/products/arbre-a-chat-180-cm?variant=54801989599574",
+   "https://maisonchatelle.fr/products/large-cat-tree-tower-with-sisal-scratching-post-wicker-basket-bed-flower-cat-condo-indoor-modern-cat-furniture-cat-accessories?variant=58282665247103",
+   "https://maisongriffe.fr/products/arbre-a-chat-bergen-multi-niveaux-multi-chats?variant=55051584667991",
+   "https://miroeglow.com/products/arbre-a-chat-164-cm-niche-panier-hamac?variant=55803829289289",
+   "https://www.chatsdamour.com/products/arbre-a-chat-multilevel?variant=50507450482974"]},
+  {"ligne": 58, "produit": "boîte à colis", "urls": [
+   "https://colivance.com/products/boite-a-colis-41-x-38-x-103-cm?variant=57711409922430",
+   "https://corven-co.com/products/boite-de-depot-de-colis-arno?variant=54486351282509"]}
+ ]
+}

@@ -1,0 +1,298 @@
+{
+ "8": {
+  "produit": "brasero",
+  "moyenne": 871.42,
+  "nb": 4,
+  "min": 226.79,
+  "max": 2425.0,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- bricovibe.com : 533,90 €\n- outdoorbraise.com : 299,99 €\n- lecomptoirdefrance.com : 2 425,00 €\n- livlig.com : 226,79 €\nMoyenne sur 4 concurrent(s) : 871,42 €"
+ },
+ "9": {
+  "produit": "chaise ergonomique",
+  "moyenne": 269.94,
+  "nb": 2,
+  "min": 209.99,
+  "max": 329.9,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- montians.com : 209,99 €\n- sitandstep.fr : 329,90 €\nMoyenne sur 2 concurrent(s) : 269,94 €"
+ },
+ "10": {
+  "produit": "cave à vin",
+  "moyenne": 550.07,
+  "nb": 2,
+  "min": 420.24,
+  "max": 679.9,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- espritvin.com : 679,90 €\n- ateliercavemillesime.com : 420,24 €\nMoyenne sur 2 concurrent(s) : 550,07 €"
+ },
+ "11": {
+  "produit": "barbecue",
+  "moyenne": 397.4,
+  "nb": 2,
+  "min": 149.9,
+  "max": 644.9,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- bricovibe.com : 644,90 €\n- access-garden.com : 149,90 €\nMoyenne sur 2 concurrent(s) : 397,40 €"
+ },
+ "12": {
+  "produit": "ventilateur de plafond",
+  "moyenne": 265.81,
+  "nb": 3,
+  "min": 138.49,
+  "max": 339.0,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- maisonlustre.fr : 339,00 €\n- silamp.fr : 138,49 €\n- sansoti.com : 319,95 €\nMoyenne sur 3 concurrent(s) : 265,81 €"
+ },
+ "13": {
+  "produit": "échiquier",
+  "moyenne": 194.7,
+  "nb": 4,
+  "min": 129.0,
+  "max": 250.0,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- jeuxdheritage.fr : 250,00 €\n- maisonnoirval.com : 149,90 €\n- lechiquierdufou.fr : 249,90 €\n- maisondelechiquier.com : 129,00 €\nMoyenne sur 4 concurrent(s) : 194,70 €"
+ },
+ "15": {
+  "produit": "sacoche ordinateur",
+  "moyenne": 218.0,
+  "nb": 1,
+  "min": 218.0,
+  "max": 218.0,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- maison-majda.com : 218,00 €\nMoyenne sur 1 concurrent(s) : 218,00 €"
+ },
+ "17": {
+  "produit": "déshumidificateur",
+  "moyenne": 169.9,
+  "nb": 3,
+  "min": 139.9,
+  "max": 229.9,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- airaly.fr : 139,90 €\n- secalio.com : 229,90 €\n- humivair.com : 139,90 €\nMoyenne sur 3 concurrent(s) : 169,90 €"
+ },
+ "18": {
+  "produit": "purificateur d'air",
+  "moyenne": 135.92,
+  "nb": 1,
+  "min": 135.92,
+  "max": 135.92,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- climeor.com : 135,92 €\nMoyenne sur 1 concurrent(s) : 135,92 €"
+ },
+ "19": {
+  "produit": "shampouineuse",
+  "moyenne": 225.49,
+  "nb": 2,
+  "min": 219.99,
+  "max": 230.99,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- danay.fr : prix illisible (site inaccessible), non compté\n- kovyro.fr : 230,99 €\n- puralyo.com : 219,99 €\nMoyenne sur 2 concurrent(s) : 225,49 €"
+ },
+ "20": {
+  "produit": "machine à glaçons",
+  "moyenne": 134.9,
+  "nb": 1,
+  "min": 134.9,
+  "max": 134.9,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- gastro-hero.fr : 134,90 €\nMoyenne sur 1 concurrent(s) : 134,90 €"
+ },
+ "22": {
+  "produit": "glacière électrique",
+  "moyenne": 362.9,
+  "nb": 1,
+  "min": 362.9,
+  "max": 362.9,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- cavecomptoir.com : 362,90 €\nMoyenne sur 1 concurrent(s) : 362,90 €"
+ },
+ "23": {
+  "produit": "tapis de marche",
+  "moyenne": 288.51,
+  "nb": 4,
+  "min": 249.99,
+  "max": 335.05,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- hantx.fr : 319,00 €\n- gymoova.com : 249,99 €\n- sportstech.de : 335,05 €\n- motivaboutique.com : 249,99 €\nMoyenne sur 4 concurrent(s) : 288,51 €"
+ },
+ "26": {
+  "produit": "platine vinyle",
+  "moyenne": 299.76,
+  "nb": 5,
+  "min": 149.9,
+  "max": 749.0,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- laboiteconcept.com : 749,00 €\n- faubourgvinyle.com : 189,00 €\n- vinylae.com : 249,00 €\n- lecrinduvinyle.com : 149,90 €\n- lecomptoirduvinyle.com : 161,90 €\nMoyenne sur 5 concurrent(s) : 299,76 €"
+ },
+ "27": {
+  "produit": "table d'appoint",
+  "moyenne": 213.85,
+  "nb": 4,
+  "min": 190.0,
+  "max": 245.0,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- eikinterior.com : 225,90 €\n- tizu.fr : 245,00 €\n- tableetmatiere.com : 194,50 €\n- briaq.fr : 190,00 €\nMoyenne sur 4 concurrent(s) : 213,85 €"
+ },
+ "28": {
+  "produit": "porte-bébé de randonnée",
+  "moyenne": 263.43,
+  "nb": 3,
+  "min": 99.9,
+  "max": 365.4,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- mama-hangs.com : 325,00 €\n- sportshub.fr : 365,40 €\n- bebellia.fr : 99,90 €\nMoyenne sur 3 concurrent(s) : 263,43 €"
+ },
+ "29": {
+  "produit": "bain de soleil",
+  "moyenne": 514.33,
+  "nb": 3,
+  "min": 299.0,
+  "max": 745.0,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- kebek.fr : 499,00 €\n- berahgetah.com : 299,00 €\n- vibesdelmundo.com : 745,00 €\nMoyenne sur 3 concurrent(s) : 514,33 €"
+ },
+ "30": {
+  "produit": "robe de soirée",
+  "moyenne": 139.47,
+  "nb": 2,
+  "min": 129.0,
+  "max": 149.95,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- clo-la.com : 129,00 €\n- clementparis.com : 149,95 €\nMoyenne sur 2 concurrent(s) : 139,47 €"
+ },
+ "31": {
+  "produit": "vélo d'appartement",
+  "moyenne": 687.07,
+  "nb": 2,
+  "min": 249.99,
+  "max": 1124.15,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- sportstech.de : 1 124,15 €\n- gymoova.com : 249,99 €\nMoyenne sur 2 concurrent(s) : 687,07 €"
+ },
+ "32": {
+  "produit": "colonne de salle de bain",
+  "moyenne": 369.0,
+  "nb": 3,
+  "min": 189.0,
+  "max": 689.0,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- decoclico.fr : 229,00 €\n- berahgetah.com : 689,00 €\n- doucheflow.com : 189,00 €\nMoyenne sur 3 concurrent(s) : 369,00 €"
+ },
+ "34": {
+  "produit": "porte-serviette",
+  "moyenne": 549.9,
+  "nb": 1,
+  "min": 549.9,
+  "max": 549.9,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- olverton.com : 549,90 €\nMoyenne sur 1 concurrent(s) : 549,90 €"
+ },
+ "35": {
+  "produit": "couverture lestée",
+  "moyenne": 129.66,
+  "nb": 3,
+  "min": 119.99,
+  "max": 143.99,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- lunelestee.com : 124,99 €\n- lunex-officiel.com : 119,99 €\n- laissetoilestee.fr : 143,99 €\nMoyenne sur 3 concurrent(s) : 129,66 €"
+ },
+ "37": {
+  "produit": "cheminée électrique",
+  "moyenne": 499.33,
+  "nb": 3,
+  "min": 389.0,
+  "max": 609.0,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- flamvia.com : 499,99 €\n- feuintense.com : 609,00 €\n- nebuleu.com : 389,00 €\n- shop.planika.com : non compté (petite cheminée de table au bioéthanol, pas une cheminée électrique murale)\nMoyenne sur 3 concurrent(s) : 499,33 €"
+ },
+ "38": {
+  "produit": "cheminée éthanol",
+  "moyenne": 2149.49,
+  "nb": 2,
+  "min": 1589.0,
+  "max": 2709.99,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- feuintense.com : 1 589,00 €\n- flamvia.com : 2 709,99 €\nMoyenne sur 2 concurrent(s) : 2 149,49 €"
+ },
+ "41": {
+  "produit": "filtre à eau",
+  "moyenne": 438.95,
+  "nb": 2,
+  "min": 238.0,
+  "max": 639.9,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- fluide.fr : 238,00 €\n- pure-osmose.com : 639,90 €\nMoyenne sur 2 concurrent(s) : 438,95 €"
+ },
+ "42": {
+  "produit": "nettoyeur à ultrasons",
+  "moyenne": 259.0,
+  "nb": 1,
+  "min": 259.0,
+  "max": 259.0,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- ultracleanpro.fr : 259,00 €\nMoyenne sur 1 concurrent(s) : 259,00 €"
+ },
+ "46": {
+  "produit": "sac de frappe",
+  "moyenne": 182.42,
+  "nb": 4,
+  "min": 119.99,
+  "max": 319.9,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- arvoxsport.com : 159,90 €\n- homeboxing.fr : 119,99 €\n- maisonduboxeur.fr : 129,90 €\n- scoryx.fr : 319,90 €\nMoyenne sur 4 concurrent(s) : 182,42 €"
+ },
+ "47": {
+  "produit": "four à pizza d'extérieur",
+  "moyenne": 375.23,
+  "nb": 4,
+  "min": 279.0,
+  "max": 499.0,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- ziipa.fr : 279,00 €\n- eu.ooni.com : 399,00 €\n- gastro-hero.fr : 323,90 €\n- outdoorchef-france.fr : 499,00 €\nMoyenne sur 4 concurrent(s) : 375,23 €"
+ },
+ "48": {
+  "produit": "poulailler",
+  "moyenne": 380.45,
+  "nb": 2,
+  "min": 361.9,
+  "max": 399.0,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- lepoulaillerducoin.fr : 361,90 €\n- galleo.fr : 399,00 €\n- poulaillersur.fr : non compté (porte automatique de poulailler, pas un poulailler)\nMoyenne sur 2 concurrent(s) : 380,45 €"
+ },
+ "49": {
+  "produit": "serre de jardin",
+  "moyenne": 1309.95,
+  "nb": 2,
+  "min": 1090.0,
+  "max": 1529.91,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- recoltesetserres.fr : 1 090,00 €\n- serrenature.com : 1 529,91 €\nMoyenne sur 2 concurrent(s) : 1 309,95 €"
+ },
+ "50": {
+  "produit": "abri de jardin",
+  "moyenne": 570.45,
+  "nb": 2,
+  "min": 329.0,
+  "max": 811.9,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- patiowellshop.fr : 329,00 €\n- bricovibe.com : 811,90 €\nMoyenne sur 2 concurrent(s) : 570,45 €"
+ },
+ "51": {
+  "produit": "salon de jardin",
+  "moyenne": 530.95,
+  "nb": 2,
+  "min": 509.0,
+  "max": 552.9,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- bricovibe.com : 552,90 €\n- berahgetah.com : 509,00 €\nMoyenne sur 2 concurrent(s) : 530,95 €"
+ },
+ "52": {
+  "produit": "trampoline",
+  "moyenne": 1459.0,
+  "nb": 1,
+  "min": 1459.0,
+  "max": 1459.0,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- springfreetrampoline.fr : 1 459,00 €\nMoyenne sur 1 concurrent(s) : 1 459,00 €"
+ },
+ "54": {
+  "produit": "bureau assis-debout",
+  "moyenne": 239.53,
+  "nb": 4,
+  "min": 158.0,
+  "max": 314.1,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- yaasa.com : 314,10 €\n- ultimadesk.fr : 231,00 €\n- ultimadesk.fr : 255,00 €\n- ultradesk.fr : 158,00 €\nMoyenne sur 4 concurrent(s) : 239,53 €"
+ },
+ "55": {
+  "produit": "lit cabane Montessori",
+  "moyenne": 296.61,
+  "nb": 4,
+  "min": 239.99,
+  "max": 399.9,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- petitpin.fr : 257,55 €\n- ultimadesk.fr : non compté (bureau assis-debout collé dans la ligne lit cabane)\n- niddelune.com : 399,90 €\n- boisetmerveilles.com : 239,99 €\n- atelierlitcabane.com : 289,00 €\nMoyenne sur 4 concurrent(s) : 296,61 €"
+ },
+ "56": {
+  "produit": "arbre à chat",
+  "moyenne": 193.69,
+  "nb": 8,
+  "min": 110.9,
+  "max": 350.0,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- gruchat.com : 194,99 €\n- royalmilo.com : 164,90 €\n- zhanimos.com : 189,90 €\n- feliq.fr : 139,90 €\n- maisonchatelle.fr : 350,00 €\n- maisongriffe.fr : 169,90 €\n- miroeglow.com : 229,00 €\n- chatsdamour.com : 110,90 €\nMoyenne sur 8 concurrent(s) : 193,69 €"
+ },
+ "58": {
+  "produit": "boîte à colis",
+  "moyenne": 301.95,
+  "nb": 2,
+  "min": 284.0,
+  "max": 319.9,
+  "note": "Prix de vente = moyenne des prix des concurrents de la colonne G (relevés le 19/11/2026, variante pointée par ton lien) :\n- colivance.com : 319,90 €\n- corven-co.com : 284,00 €\nMoyenne sur 2 concurrent(s) : 301,95 €"
+ }
+}
