@@ -47,6 +47,9 @@ for f in sorted(os.listdir(dossier)):
     if lignes and f[5:-5] not in lignes:
         continue
     r = json.load(open(os.path.join(dossier, f), encoding="utf-8"))
+    vx = os.path.join(dossier, "vidaxl" + f[5:])
+    if not r.get("vidaxl") and os.path.exists(vx):
+        r["vidaxl"] = json.load(open(vx, encoding="utf-8"))["vidaxl"]
     # Prix AliExpress relus avec la lecture corrigée ; fiches VidaXL complétées (photo, prix)
     for a in (r.get("aliexpress") or {}).get("resultats") or []:
         a["prix"] = premier_prix(a.get("texte"))
