@@ -362,8 +362,21 @@
    "remarque": "Même glacière à compresseur chez plusieurs vendeurs AliExpress. VidaXL a une glacière à compresseur de 30 L à roues (modèle différent)."
   },
   "23": {
-   "choix": [],
-   "remarque": "Recherche par image ratée : la photo du concurrent montre surtout la tenue de sport. À relancer avec une photo du tapis seul."
+   "choix": [
+    [
+     "RA2",
+     "équivalent (YEE RUN, pliable sous le bureau, inclinaison 10 %)"
+    ],
+    [
+     "RA3",
+     "équivalent (pliable, inclinaison 14 %, 1 à 12 km/h)"
+    ],
+    [
+     "RA5",
+     "équivalent"
+    ]
+   ],
+   "remarque": "Deuxième recherche par image avec une photo du tapis seul (la première montrait surtout la tenue de sport). VidaXL ne vend qu'un tapis de course manuel (sans moteur, 119,99 €) : non retenu."
   },
   "26": {
    "choix": [
@@ -459,9 +472,17 @@
     [
      "A1",
      "identique (sèche-serviettes électrique encastré, or brossé, 4 barres, commande tactile)"
+    ],
+    [
+     "RA1",
+     "identique (électrique, inox 304, 4 barres)"
+    ],
+    [
+     "RA6",
+     "identique (électrique, inox 304, 5 barres, noir)"
     ]
    ],
-   "remarque": "Le concurrent vend un sèche-serviettes électrique, pas un simple porte-serviette (la grille a aussi une ligne « sèche-serviette »). Un seul fournisseur trouvé pour l'instant : les autres résultats AliExpress sont des barres non chauffantes, et VidaXL ne vend que des sèche-serviettes à eau chaude."
+   "remarque": "Le concurrent vend un sèche-serviettes électrique, pas un simple porte-serviette (la grille a aussi une ligne « sèche-serviette »). Deuxième fournisseur trouvé avec une autre photo du concurrent (modèle noir). VidaXL ne vend que des sèche-serviettes à eau chaude."
   },
   "35": {
    "choix": [
