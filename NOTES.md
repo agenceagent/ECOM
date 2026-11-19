@@ -73,3 +73,10 @@
   - Erreurs de mots-clés de ma part, corrigées sans frais : « kayak » seul (site de voyage, 823 000) et « sauna » seul (lieux). Mots trop larges = volume trompeur.
   - Chauffage de terrasse et plongée : tous sous 8 000 (sauf masque de snorkeling 9 260, été, petit ticket). Le narguilé de plongée vu en vidéo : 450 recherches, demande créée par la vidéo.
   - Comparaison avec les chiffres Semrush de l'ami : écarts dans les deux sens (de ×0,2 à ×1,5) ; « casque moto vintage » 67 000 chez l'ami = volume de « casque moto » (le vintage fait 2 900).
+
+## Point du 19/11/2026 : fournisseurs
+- Demande : trouver des fournisseurs qui vendent vraiment le produit des concurrents choisis par l'apprenant, en croisant AliExpress (recherche par image de la photo du concurrent) et VidaXL (recherche texte), au moins 2 fournisseurs du même type de produit.
+- Fait pour 33 produits (une page concurrente par ligne). Grille : C = liens, note sur C = niveau de ressemblance, prix, concurrent comparé, calcul achat × 3 ; D = prix du fournisseur le plus ressemblant, seulement si identique ou équivalent et à la bonne taille ; M = délai VidaXL quand VidaXL est retenu. Colonne N et contenu de l'apprenant non touchés.
+- L'apprenant a supprimé des lignes pendant le travail : on écrit en retrouvant le produit par son nom (colonne A), jamais par le numéro de ligne.
+- Constats : plusieurs concurrents revendent un produit VidaXL ou une marque (colonne de salle de bain VidaXL, couverture WOLTU, copie Ergobaby pour le porte-bébé = risque de contrefaçon). Règle achat × 3 rarement tenue face au prix des concurrents : seuls sacoche (3,9), sèche-serviettes (3,3) et déshumidificateur (3,3) la passent.
+- Limites : AliExpress demande une connexion après 2 ou 3 recherches, puis un reCAPTCHA sur les fiches. On ne contourne pas : prix à relever à la main pour filtre à eau, serre, échiquier (bonne taille), nettoyeur 15 L. Erreur de lecture de prix corrigée (note du vendeur collée au prix : « 5 131 € » pour 131 €).
