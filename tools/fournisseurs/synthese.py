@@ -3,7 +3,7 @@ le texte de la colonne C (liens), le prix d'achat (colonne D), le délai (colonn
 et une note de cellule (niveau de ressemblance, prix, prix du concurrent, règle achat × 3).
 Les numéros de ligne sont ceux de la grille au moment du lot : l'apprenant a pu supprimer des lignes
 depuis, donc on écrit dans la grille en retrouvant chaque produit par son nom (colonne A).
-Usage : python3 -I synthese.py DOSSIER_LOT DOSSIER_VX2,DOSSIER_VX3 [sortie.json]"""
+Usage : python3 -I synthese.py DOSSIER_LOT DOSSIER_VX2,DOSSIER_VX3 sortie.json [DOSSIER_RATTRAPAGE]"""
 import json
 import os
 import sys
@@ -18,14 +18,21 @@ def euros(x):
     return "prix non affiché" if x is None else f"{x:,.2f} €".replace(",", " ").replace(".", ",")
 
 
-def candidats(lot, vx2, ligne):
-    r = json.load(open(os.path.join(lot, f"ligne{ligne}.json"), encoding="utf-8"))
-    c = {}
+def _resultats(r, prefixe, c):
     for i, a in enumerate((r.get("aliexpress") or {}).get("resultats") or [], 1):
-        c[f"A{i}"] = ("AliExpress", a["url"], a.get("prix"))
+        c[f"{prefixe}A{i}"] = ("AliExpress", a["url"], a.get("prix"))
     for i, v in enumerate(r.get("vidaxl") or [], 1):
         if v.get("url"):
-            c[f"V{i}"] = ("VidaXL", v["url"], v.get("prix"))
+            c[f"{prefixe}V{i}"] = ("VidaXL", v["url"], v.get("prix"))
+
+
+def candidats(lot, vx2, ligne, rattrapage=None):
+    r = json.load(open(os.path.join(lot, f"ligne{ligne}.json"), encoding="utf-8"))
+    c = {}
+    _resultats(r, "", c)
+    # Rattrapage (nouvelle recherche par image avec une autre photo du concurrent) : codes RA1, RV1...
+    if rattrapage and os.path.exists(os.path.join(rattrapage, f"ligne{ligne}.json")):
+        _resultats(json.load(open(os.path.join(rattrapage, f"ligne{ligne}.json"), encoding="utf-8")), "R", c)
     # Recherches VidaXL plus précises faites ensuite : X = 1re reprise (vx2), Y = 2e reprise (vx3)
     for lettre, dossier in zip("XY", vx2):
         f2 = os.path.join(dossier, f"ligne{ligne}.json")
@@ -36,11 +43,11 @@ def candidats(lot, vx2, ligne):
     return r, c
 
 
-def synthese(lot, vx2):
+def synthese(lot, vx2, rattrapage=None):
     verdicts = json.load(open(os.path.join(ICI, "verdicts.json"), encoding="utf-8"))["lignes"]
     sortie = {}
     for ligne, v in verdicts.items():
-        r, c = candidats(lot, vx2, ligne)
+        r, c = candidats(lot, vx2, ligne, rattrapage)
         prix_conc = r["concurrent"].get("prix")
         choisis = [(code, niveau) + c[code] for code, niveau in v["choix"]]
         sources = {s for _, _, s, _, _ in choisis}
@@ -78,7 +85,7 @@ def synthese(lot, vx2):
 
 
 if __name__ == "__main__":
-    res = synthese(sys.argv[1], sys.argv[2].split(","))
+    res = synthese(sys.argv[1], sys.argv[2].split(","), sys.argv[4] if len(sys.argv) > 4 else None)
     if len(sys.argv) > 3:
         json.dump(res, open(sys.argv[3], "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     for ligne, s in res.items():
