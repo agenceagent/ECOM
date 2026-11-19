@@ -1,11 +1,15 @@
 {
- "_lisez_moi": "Corrections au relevé automatique des prix de vente (19/11/2026). exclus = lien qui ne correspond pas au produit de la ligne (erreur de copier-coller probable) : il n'entre pas dans la moyenne et c'est signalé à l'apprenant. manuel = prix lu à l'écran dans un navigateur quand la lecture automatique a échoué.",
+ "_lisez_moi": "Corrections au relevé automatique des prix de vente (19/11/2026). exclus = lien qui ne correspond pas au produit de la ligne (erreur de copier-coller probable) : il n'entre pas dans la moyenne et c'est signalé à l'apprenant. manuel = prix lu à l'écran dans un navigateur quand la lecture automatique a échoué. Avec 3 concurrents ou plus, grille_menage.py retire aussi les prix hors du lot (plus de 2 fois au-dessus ou en dessous de la médiane), à la demande de l'apprenant.",
  "exclus": {
   "https://ultimadesk.fr/products/bureau-assis-debout-ultimadesk-t300?variant=60289385398656|55": "bureau assis-debout collé dans la ligne lit cabane",
   "https://poulaillersur.fr/products/porte-automatique-poulailler?variant=58872354308421|48": "porte automatique de poulailler, pas un poulailler",
-  "https://shop.planika.com/fr-eu/products/chantico-glassfire?variant=54231557341507|37": "petite cheminée de table au bioéthanol, pas une cheminée électrique murale"
+  "https://shop.planika.com/fr-eu/products/chantico-glassfire?variant=54231557341507|37": "petite cheminée de table au bioéthanol, pas une cheminée électrique murale",
+  "https://www.sportstech.de/fr-fr/products/sportstech-sbike?variant=52970373284182|31": "vélo haut de gamme 4,5 fois plus cher que l'autre concurrent (décision de l'apprenant)"
  },
  "manuel": {
-  "https://www.gruchat.com/arbre-a-chat?couleur=anthracite&taille=164": {"prix": 194.99, "titre": "Arbre à chat design en bois massif 164 cm anthracite (prix Black Friday, au lieu de 299,99 €)"}
+  "https://www.gruchat.com/arbre-a-chat?couleur=anthracite&taille=164": {
+   "prix": 194.99,
+   "titre": "Arbre à chat design en bois massif 164 cm anthracite (prix Black Friday, au lieu de 299,99 €)"
+  }
  }
 }
