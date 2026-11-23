@@ -1,0 +1,2214 @@
+{
+ "_lisez_moi": "Idées high ticket du 23/11/2026, hors liste noire, hors produits déjà testés.",
+ "idees": [
+  {
+   "produit": "tonnelle",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "tonnelle",
+    "tonnelle de jardin",
+    "tonnelle autoportante"
+   ]
+  },
+  {
+   "produit": "voile d'ombrage",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "voile d'ombrage"
+   ]
+  },
+  {
+   "produit": "parasol déporté",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "parasol déporté"
+   ]
+  },
+  {
+   "produit": "fauteuil suspendu",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "fauteuil suspendu",
+    "fauteuil oeuf",
+    "chaise suspendue"
+   ]
+  },
+  {
+   "produit": "lit de jardin",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "lit de jardin",
+    "daybed"
+   ]
+  },
+  {
+   "produit": "canapé de jardin",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "canapé de jardin",
+    "canapé d'extérieur"
+   ]
+  },
+  {
+   "produit": "salon bas de jardin",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "salon bas de jardin"
+   ]
+  },
+  {
+   "produit": "table de jardin",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "table de jardin",
+    "table de jardin extensible",
+    "table de terrasse"
+   ]
+  },
+  {
+   "produit": "banc de jardin",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "banc de jardin"
+   ]
+  },
+  {
+   "produit": "fauteuil de jardin",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "fauteuil de jardin",
+    "fauteuil de terrasse"
+   ]
+  },
+  {
+   "produit": "bar de jardin",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "bar de jardin",
+    "bar extérieur"
+   ]
+  },
+  {
+   "produit": "cuisine d'extérieur",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "cuisine extérieure",
+    "cuisine d'été"
+   ]
+  },
+  {
+   "produit": "coffre de jardin",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "coffre de jardin",
+    "coffre de rangement extérieur"
+   ]
+  },
+  {
+   "produit": "abri bûches",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "abri bûches",
+    "abri à bois",
+    "range bûches"
+   ]
+  },
+  {
+   "produit": "potager surélevé",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "potager surélevé",
+    "carré potager"
+   ]
+  },
+  {
+   "produit": "jardinière sur pied",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "jardinière sur pied"
+   ]
+  },
+  {
+   "produit": "panneau brise-vue",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "panneau brise vue",
+    "claustra"
+   ]
+  },
+  {
+   "produit": "portillon",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "portillon"
+   ]
+  },
+  {
+   "produit": "gloriette",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "gloriette",
+    "kiosque de jardin",
+    "pavillon de jardin"
+   ]
+  },
+  {
+   "produit": "tente de réception",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "tente de réception",
+    "barnum",
+    "tente pliante"
+   ]
+  },
+  {
+   "produit": "store banne",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "store banne"
+   ]
+  },
+  {
+   "produit": "douche de jardin",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "douche de jardin",
+    "douche solaire",
+    "douche extérieure"
+   ]
+  },
+  {
+   "produit": "bain nordique",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "bain nordique",
+    "bain norvégien"
+   ]
+  },
+  {
+   "produit": "sauna extérieur",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "sauna extérieur",
+    "sauna tonneau",
+    "sauna finlandais"
+   ]
+  },
+  {
+   "produit": "abri vélo",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "abri vélo",
+    "abri à vélo"
+   ]
+  },
+  {
+   "produit": "serre tunnel",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "serre tunnel"
+   ]
+  },
+  {
+   "produit": "serre adossée",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "serre adossée"
+   ]
+  },
+  {
+   "produit": "table de pique-nique",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "table de pique nique"
+   ]
+  },
+  {
+   "produit": "fauteuil adirondack",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "fauteuil adirondack"
+   ]
+  },
+  {
+   "produit": "cheminée d'extérieur",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "cheminée d'extérieur",
+    "cheminée de jardin"
+   ]
+  },
+  {
+   "produit": "boîte aux lettres",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "boîte aux lettres"
+   ]
+  },
+  {
+   "produit": "abri poubelle",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "abri poubelle",
+    "cache poubelle"
+   ]
+  },
+  {
+   "produit": "gazon synthétique",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "gazon synthétique"
+   ]
+  },
+  {
+   "produit": "chalet de jardin",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "chalet de jardin"
+   ]
+  },
+  {
+   "produit": "mur végétal",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "mur végétal"
+   ]
+  },
+  {
+   "produit": "olivier artificiel",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "olivier artificiel",
+    "arbre artificiel"
+   ]
+  },
+  {
+   "produit": "bain de soleil double",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "bain de soleil double"
+   ]
+  },
+  {
+   "produit": "pool house",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "pool house"
+   ]
+  },
+  {
+   "produit": "abri de terrasse",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "abri de terrasse"
+   ]
+  },
+  {
+   "produit": "table de jardin en bois",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "table de jardin en bois"
+   ]
+  },
+  {
+   "produit": "salon de jardin en teck",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "salon de jardin teck"
+   ]
+  },
+  {
+   "produit": "transat de piscine",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "transat piscine"
+   ]
+  },
+  {
+   "produit": "douche de piscine",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "douche de piscine"
+   ]
+  },
+  {
+   "produit": "babyfoot",
+   "niche": "Loisirs, jeux",
+   "mots_cles": [
+    "baby foot",
+    "babyfoot"
+   ]
+  },
+  {
+   "produit": "billard",
+   "niche": "Loisirs, jeux",
+   "mots_cles": [
+    "billard",
+    "table de billard",
+    "billard convertible"
+   ]
+  },
+  {
+   "produit": "table multi-jeux",
+   "niche": "Loisirs, jeux",
+   "mots_cles": [
+    "table multi jeux"
+   ]
+  },
+  {
+   "produit": "table de poker",
+   "niche": "Loisirs, jeux",
+   "mots_cles": [
+    "table de poker"
+   ]
+  },
+  {
+   "produit": "panier de basket",
+   "niche": "Loisirs, jeux",
+   "mots_cles": [
+    "panier de basket",
+    "panier de basket sur pied"
+   ]
+  },
+  {
+   "produit": "chevalet de peinture",
+   "niche": "Loisirs, jeux",
+   "mots_cles": [
+    "chevalet de peinture",
+    "chevalet"
+   ]
+  },
+  {
+   "produit": "table à dessin",
+   "niche": "Loisirs, jeux",
+   "mots_cles": [
+    "table à dessin"
+   ]
+  },
+  {
+   "produit": "métier à tisser",
+   "niche": "Loisirs, jeux",
+   "mots_cles": [
+    "métier à tisser"
+   ]
+  },
+  {
+   "produit": "cave à cigares",
+   "niche": "Loisirs, jeux",
+   "mots_cles": [
+    "cave à cigare",
+    "humidor"
+   ]
+  },
+  {
+   "produit": "jeu de fléchettes",
+   "niche": "Loisirs, jeux",
+   "mots_cles": [
+    "cible fléchette"
+   ]
+  },
+  {
+   "produit": "table de jeu",
+   "niche": "Loisirs, jeux",
+   "mots_cles": [
+    "table de jeu"
+   ]
+  },
+  {
+   "produit": "banc de musculation",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "banc de musculation",
+    "banc développé couché"
+   ]
+  },
+  {
+   "produit": "rack à squat",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "rack à squat",
+    "cage à squat",
+    "cage de musculation"
+   ]
+  },
+  {
+   "produit": "station de musculation",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "station de musculation",
+    "appareil de musculation",
+    "machine de musculation"
+   ]
+  },
+  {
+   "produit": "presse à cuisses",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "presse à cuisse"
+   ]
+  },
+  {
+   "produit": "haltères réglables",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "haltères réglables"
+   ]
+  },
+  {
+   "produit": "barre olympique",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "barre olympique"
+   ]
+  },
+  {
+   "produit": "disques de musculation",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "disque de musculation"
+   ]
+  },
+  {
+   "produit": "rameur",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "rameur",
+    "rameur à eau"
+   ]
+  },
+  {
+   "produit": "vélo elliptique",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "vélo elliptique"
+   ]
+  },
+  {
+   "produit": "espalier",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "espalier"
+   ]
+  },
+  {
+   "produit": "barre de traction",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "barre de traction",
+    "station de traction"
+   ]
+  },
+  {
+   "produit": "chaise romaine",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "chaise romaine"
+   ]
+  },
+  {
+   "produit": "reformer pilates",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "reformer pilates",
+    "machine pilates"
+   ]
+  },
+  {
+   "produit": "tatami",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "tatami"
+   ]
+  },
+  {
+   "produit": "mannequin de boxe",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "mannequin de boxe"
+   ]
+  },
+  {
+   "produit": "poulie de musculation",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "poulie musculation",
+    "poulie haute"
+   ]
+  },
+  {
+   "produit": "banc abdominaux",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "banc abdominaux"
+   ]
+  },
+  {
+   "produit": "barres parallèles",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "barres parallèles",
+    "station dips"
+   ]
+  },
+  {
+   "produit": "smith machine",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "smith machine",
+    "cage guidée"
+   ]
+  },
+  {
+   "produit": "air bike",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "air bike"
+   ]
+  },
+  {
+   "produit": "planche de surf",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "planche de surf"
+   ]
+  },
+  {
+   "produit": "longboard",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "longboard"
+   ]
+  },
+  {
+   "produit": "wingfoil",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "wingfoil",
+    "wing foil"
+   ]
+  },
+  {
+   "produit": "float tube",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "float tube"
+   ]
+  },
+  {
+   "produit": "bateau gonflable",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "bateau gonflable",
+    "annexe bateau"
+   ]
+  },
+  {
+   "produit": "canoë",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "canoë"
+   ]
+  },
+  {
+   "produit": "ring de boxe",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "ring de boxe"
+   ]
+  },
+  {
+   "produit": "vélo de ville",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "vélo de ville",
+    "vélo hollandais"
+   ]
+  },
+  {
+   "produit": "vélo pliant",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "vélo pliant"
+   ]
+  },
+  {
+   "produit": "fixie",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "fixie"
+   ]
+  },
+  {
+   "produit": "tandem",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "vélo tandem"
+   ]
+  },
+  {
+   "produit": "gilet lesté",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "gilet lesté"
+   ]
+  },
+  {
+   "produit": "kettlebell réglable",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "kettlebell réglable"
+   ]
+  },
+  {
+   "produit": "plateau de musculation",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "home gym"
+   ]
+  },
+  {
+   "produit": "tente gonflable",
+   "niche": "Camping, plein air",
+   "mots_cles": [
+    "tente gonflable"
+   ]
+  },
+  {
+   "produit": "tente familiale",
+   "niche": "Camping, plein air",
+   "mots_cles": [
+    "tente familiale",
+    "tente 6 places"
+   ]
+  },
+  {
+   "produit": "tente tipi",
+   "niche": "Camping, plein air",
+   "mots_cles": [
+    "tente tipi"
+   ]
+  },
+  {
+   "produit": "auvent voiture",
+   "niche": "Camping, plein air",
+   "mots_cles": [
+    "auvent voiture",
+    "auvent van"
+   ]
+  },
+  {
+   "produit": "glacière rigide",
+   "niche": "Camping, plein air",
+   "mots_cles": [
+    "glacière rigide",
+    "glacière à roulettes"
+   ]
+  },
+  {
+   "produit": "cuisine de camping",
+   "niche": "Camping, plein air",
+   "mots_cles": [
+    "cuisine de camping"
+   ]
+  },
+  {
+   "produit": "poêle à bois de camping",
+   "niche": "Camping, plein air",
+   "mots_cles": [
+    "poêle à bois camping"
+   ]
+  },
+  {
+   "produit": "galerie de toit",
+   "niche": "Camping, plein air",
+   "mots_cles": [
+    "galerie de toit"
+   ]
+  },
+  {
+   "produit": "garage pliable",
+   "niche": "Camping, plein air",
+   "mots_cles": [
+    "garage pliable"
+   ]
+  },
+  {
+   "produit": "tente de camping",
+   "niche": "Camping, plein air",
+   "mots_cles": [
+    "tente de camping"
+   ]
+  },
+  {
+   "produit": "hamac de camping",
+   "niche": "Camping, plein air",
+   "mots_cles": [
+    "hamac camping"
+   ]
+  },
+  {
+   "produit": "lit de camp",
+   "niche": "Camping, plein air",
+   "mots_cles": [
+    "lit de camp"
+   ]
+  },
+  {
+   "produit": "canapé convertible",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "canapé convertible",
+    "canapé lit"
+   ]
+  },
+  {
+   "produit": "canapé d'angle",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "canapé d'angle",
+    "canapé d'angle convertible"
+   ]
+  },
+  {
+   "produit": "canapé 3 places",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "canapé 3 places"
+   ]
+  },
+  {
+   "produit": "canapé velours",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "canapé velours"
+   ]
+  },
+  {
+   "produit": "canapé modulable",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "canapé modulable"
+   ]
+  },
+  {
+   "produit": "canapé chesterfield",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "canapé chesterfield"
+   ]
+  },
+  {
+   "produit": "canapé cuir",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "canapé cuir"
+   ]
+  },
+  {
+   "produit": "fauteuil de lecture",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "fauteuil de lecture"
+   ]
+  },
+  {
+   "produit": "fauteuil scandinave",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "fauteuil scandinave"
+   ]
+  },
+  {
+   "produit": "fauteuil club",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "fauteuil club"
+   ]
+  },
+  {
+   "produit": "fauteuil à bascule",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "fauteuil à bascule",
+    "rocking chair"
+   ]
+  },
+  {
+   "produit": "fauteuil relax",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "fauteuil relax"
+   ]
+  },
+  {
+   "produit": "fauteuil crapaud",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "fauteuil crapaud"
+   ]
+  },
+  {
+   "produit": "fauteuil bouclette",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "fauteuil bouclette"
+   ]
+  },
+  {
+   "produit": "fauteuil chesterfield",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "fauteuil chesterfield"
+   ]
+  },
+  {
+   "produit": "fauteuil en rotin",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "fauteuil rotin"
+   ]
+  },
+  {
+   "produit": "méridienne",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "méridienne"
+   ]
+  },
+  {
+   "produit": "banquette",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "banquette"
+   ]
+  },
+  {
+   "produit": "table basse",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "table basse"
+   ]
+  },
+  {
+   "produit": "table basse relevable",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "table basse relevable"
+   ]
+  },
+  {
+   "produit": "table basse ronde",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "table basse ronde"
+   ]
+  },
+  {
+   "produit": "meuble TV",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "meuble tv"
+   ]
+  },
+  {
+   "produit": "bibliothèque",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "bibliothèque murale",
+    "étagère bibliothèque"
+   ]
+  },
+  {
+   "produit": "enfilade",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "buffet bas",
+    "enfilade"
+   ]
+  },
+  {
+   "produit": "commode",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "commode"
+   ]
+  },
+  {
+   "produit": "console d'entrée",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "console d'entrée",
+    "meuble console"
+   ]
+  },
+  {
+   "produit": "meuble d'entrée",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "meuble d'entrée"
+   ]
+  },
+  {
+   "produit": "meuble à chaussures",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "meuble à chaussures"
+   ]
+  },
+  {
+   "produit": "banc d'entrée",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "banc d'entrée"
+   ]
+  },
+  {
+   "produit": "paravent",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "paravent"
+   ]
+  },
+  {
+   "produit": "tapis de salon",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "tapis de salon",
+    "grand tapis"
+   ]
+  },
+  {
+   "produit": "tapis berbère",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "tapis berbère"
+   ]
+  },
+  {
+   "produit": "tapis en jute",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "tapis jute"
+   ]
+  },
+  {
+   "produit": "tapis persan",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "tapis persan"
+   ]
+  },
+  {
+   "produit": "lampadaire",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "lampadaire",
+    "lampe sur pied",
+    "lampadaire arc"
+   ]
+  },
+  {
+   "produit": "suspension luminaire",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "suspension luminaire",
+    "suspension rotin"
+   ]
+  },
+  {
+   "produit": "meuble bar",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "meuble bar"
+   ]
+  },
+  {
+   "produit": "chariot de bar",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "chariot de bar"
+   ]
+  },
+  {
+   "produit": "casier à vin",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "casier à vin",
+    "range bouteille"
+   ]
+  },
+  {
+   "produit": "desserte",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "desserte"
+   ]
+  },
+  {
+   "produit": "meuble vinyle",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "meuble vinyle"
+   ]
+  },
+  {
+   "produit": "secrétaire",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "secrétaire meuble"
+   ]
+  },
+  {
+   "produit": "meuble de rangement",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "meuble de rangement"
+   ]
+  },
+  {
+   "produit": "vitrine de collection",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "vitrine"
+   ]
+  },
+  {
+   "produit": "tête de lit",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "tête de lit"
+   ]
+  },
+  {
+   "produit": "lit coffre",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "lit coffre"
+   ]
+  },
+  {
+   "produit": "lit double",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "lit double",
+    "lit 160x200",
+    "lit 2 places"
+   ]
+  },
+  {
+   "produit": "lit en bois",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "lit en bois"
+   ]
+  },
+  {
+   "produit": "lit baldaquin",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "lit baldaquin"
+   ]
+  },
+  {
+   "produit": "lit escamotable",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "lit escamotable"
+   ]
+  },
+  {
+   "produit": "lit mezzanine",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "lit mezzanine"
+   ]
+  },
+  {
+   "produit": "cadre de lit",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "cadre de lit"
+   ]
+  },
+  {
+   "produit": "sommier",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "sommier"
+   ]
+  },
+  {
+   "produit": "dressing",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "dressing"
+   ]
+  },
+  {
+   "produit": "penderie",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "penderie"
+   ]
+  },
+  {
+   "produit": "coiffeuse",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "coiffeuse meuble",
+    "table de maquillage"
+   ]
+  },
+  {
+   "produit": "chiffonnier",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "chiffonnier"
+   ]
+  },
+  {
+   "produit": "malle en bois",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "malle en bois"
+   ]
+  },
+  {
+   "produit": "coffre de rangement",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "coffre de rangement"
+   ]
+  },
+  {
+   "produit": "lit futon",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "futon"
+   ]
+  },
+  {
+   "produit": "lit rotin",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "lit rotin"
+   ]
+  },
+  {
+   "produit": "lit capitonné",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "lit capitonné"
+   ]
+  },
+  {
+   "produit": "table à manger",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "table à manger",
+    "table de salle à manger"
+   ]
+  },
+  {
+   "produit": "table extensible",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "table extensible"
+   ]
+  },
+  {
+   "produit": "table ronde",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "table ronde"
+   ]
+  },
+  {
+   "produit": "table en bois massif",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "table bois massif"
+   ]
+  },
+  {
+   "produit": "chaises de salle à manger",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "chaise salle à manger"
+   ]
+  },
+  {
+   "produit": "tabouret de bar",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "tabouret de bar"
+   ]
+  },
+  {
+   "produit": "table haute",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "table haute"
+   ]
+  },
+  {
+   "produit": "îlot central",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "îlot central",
+    "îlot de cuisine"
+   ]
+  },
+  {
+   "produit": "desserte de cuisine",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "desserte de cuisine"
+   ]
+  },
+  {
+   "produit": "couteau japonais",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "couteau japonais"
+   ]
+  },
+  {
+   "produit": "batterie de cuisine",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "batterie de cuisine"
+   ]
+  },
+  {
+   "produit": "meuble sous vasque",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "meuble sous vasque"
+   ]
+  },
+  {
+   "produit": "banc de salle à manger",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "banc salle à manger"
+   ]
+  },
+  {
+   "produit": "buffet de cuisine",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "buffet de cuisine",
+    "buffet haut"
+   ]
+  },
+  {
+   "produit": "bureau en bois",
+   "niche": "Bureau",
+   "mots_cles": [
+    "bureau en bois",
+    "bureau bois"
+   ]
+  },
+  {
+   "produit": "bureau d'angle",
+   "niche": "Bureau",
+   "mots_cles": [
+    "bureau d'angle"
+   ]
+  },
+  {
+   "produit": "bureau gamer",
+   "niche": "Bureau",
+   "mots_cles": [
+    "bureau gamer"
+   ]
+  },
+  {
+   "produit": "chaise gamer",
+   "niche": "Bureau",
+   "mots_cles": [
+    "chaise gamer",
+    "fauteuil gamer"
+   ]
+  },
+  {
+   "produit": "bureau mural",
+   "niche": "Bureau",
+   "mots_cles": [
+    "bureau mural"
+   ]
+  },
+  {
+   "produit": "chaise de bureau",
+   "niche": "Bureau",
+   "mots_cles": [
+    "chaise de bureau",
+    "fauteuil de bureau"
+   ]
+  },
+  {
+   "produit": "bureau scandinave",
+   "niche": "Bureau",
+   "mots_cles": [
+    "bureau scandinave"
+   ]
+  },
+  {
+   "produit": "bureau secrétaire",
+   "niche": "Bureau",
+   "mots_cles": [
+    "bureau secrétaire"
+   ]
+  },
+  {
+   "produit": "établi",
+   "niche": "Atelier, garage",
+   "mots_cles": [
+    "établi",
+    "établi de menuisier"
+   ]
+  },
+  {
+   "produit": "servante d'atelier",
+   "niche": "Atelier, garage",
+   "mots_cles": [
+    "servante d'atelier",
+    "chariot à outils"
+   ]
+  },
+  {
+   "produit": "armoire métallique",
+   "niche": "Atelier, garage",
+   "mots_cles": [
+    "armoire métallique"
+   ]
+  },
+  {
+   "produit": "étagère métallique",
+   "niche": "Atelier, garage",
+   "mots_cles": [
+    "étagère métallique",
+    "rayonnage"
+   ]
+  },
+  {
+   "produit": "étagère de garage",
+   "niche": "Atelier, garage",
+   "mots_cles": [
+    "étagère garage"
+   ]
+  },
+  {
+   "produit": "armoire de garage",
+   "niche": "Atelier, garage",
+   "mots_cles": [
+    "armoire de garage"
+   ]
+  },
+  {
+   "produit": "fauteuil de barbier",
+   "niche": "Professionnels",
+   "mots_cles": [
+    "fauteuil de barbier",
+    "fauteuil barbier"
+   ]
+  },
+  {
+   "produit": "fauteuil de coiffure",
+   "niche": "Professionnels",
+   "mots_cles": [
+    "fauteuil de coiffure"
+   ]
+  },
+  {
+   "produit": "table de massage",
+   "niche": "Professionnels",
+   "mots_cles": [
+    "table de massage",
+    "lit de massage"
+   ]
+  },
+  {
+   "produit": "table de manucure",
+   "niche": "Professionnels",
+   "mots_cles": [
+    "table de manucure"
+   ]
+  },
+  {
+   "produit": "valise rigide",
+   "niche": "Mode, bagagerie",
+   "mots_cles": [
+    "valise rigide",
+    "valise",
+    "valise soute"
+   ]
+  },
+  {
+   "produit": "sac de voyage en cuir",
+   "niche": "Mode, bagagerie",
+   "mots_cles": [
+    "sac de voyage cuir"
+   ]
+  },
+  {
+   "produit": "sac à dos en cuir",
+   "niche": "Mode, bagagerie",
+   "mots_cles": [
+    "sac à dos cuir"
+   ]
+  },
+  {
+   "produit": "cartable en cuir",
+   "niche": "Mode, bagagerie",
+   "mots_cles": [
+    "cartable cuir"
+   ]
+  },
+  {
+   "produit": "porte-documents en cuir",
+   "niche": "Mode, bagagerie",
+   "mots_cles": [
+    "porte document cuir"
+   ]
+  },
+  {
+   "produit": "veste en cuir",
+   "niche": "Mode, bagagerie",
+   "mots_cles": [
+    "veste en cuir",
+    "blouson cuir"
+   ]
+  },
+  {
+   "produit": "manteau en laine",
+   "niche": "Mode, bagagerie",
+   "mots_cles": [
+    "manteau en laine"
+   ]
+  },
+  {
+   "produit": "table basse de jardin",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "table basse de jardin"
+   ]
+  },
+  {
+   "produit": "grand parasol",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "grand parasol"
+   ]
+  },
+  {
+   "produit": "auvent de porte",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "auvent de porte",
+    "marquise"
+   ]
+  },
+  {
+   "produit": "armoire de jardin",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "armoire de jardin"
+   ]
+  },
+  {
+   "produit": "grand pot de fleur",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "grand pot de fleur"
+   ]
+  },
+  {
+   "produit": "mobilier de jardin",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "mobilier de jardin"
+   ]
+  },
+  {
+   "produit": "canapé",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "canapé"
+   ]
+  },
+  {
+   "produit": "fauteuil",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "fauteuil"
+   ]
+  },
+  {
+   "produit": "fauteuil inclinable",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "fauteuil inclinable"
+   ]
+  },
+  {
+   "produit": "fauteuil de salon",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "fauteuil de salon"
+   ]
+  },
+  {
+   "produit": "fauteuil cuir",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "fauteuil cuir"
+   ]
+  },
+  {
+   "produit": "fauteuil velours",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "fauteuil velours"
+   ]
+  },
+  {
+   "produit": "canapé bouclette",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "canapé bouclette"
+   ]
+  },
+  {
+   "produit": "canapé scandinave",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "canapé scandinave"
+   ]
+  },
+  {
+   "produit": "clic-clac",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "clic clac"
+   ]
+  },
+  {
+   "produit": "canapé BZ",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "canapé bz"
+   ]
+  },
+  {
+   "produit": "lit gigogne",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "lit gigogne"
+   ]
+  },
+  {
+   "produit": "lit 140x190",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "lit 140x190"
+   ]
+  },
+  {
+   "produit": "lit king size",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "lit king size"
+   ]
+  },
+  {
+   "produit": "lit japonais",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "lit japonais"
+   ]
+  },
+  {
+   "produit": "lit banquette",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "lit banquette"
+   ]
+  },
+  {
+   "produit": "table ronde extensible",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "table ronde extensible"
+   ]
+  },
+  {
+   "produit": "table scandinave",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "table scandinave"
+   ]
+  },
+  {
+   "produit": "table industrielle",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "table industrielle"
+   ]
+  },
+  {
+   "produit": "bureau industriel",
+   "niche": "Bureau",
+   "mots_cles": [
+    "bureau industriel"
+   ]
+  },
+  {
+   "produit": "étagère industrielle",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "étagère industrielle"
+   ]
+  },
+  {
+   "produit": "chaise scandinave",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "chaise scandinave"
+   ]
+  },
+  {
+   "produit": "chaise en velours",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "chaise velours"
+   ]
+  },
+  {
+   "produit": "tapis rond",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "tapis rond"
+   ]
+  },
+  {
+   "produit": "tapis scandinave",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "tapis scandinave"
+   ]
+  },
+  {
+   "produit": "tapis en laine",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "tapis laine"
+   ]
+  },
+  {
+   "produit": "tapis vintage",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "tapis vintage"
+   ]
+  },
+  {
+   "produit": "tapis kilim",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "tapis kilim"
+   ]
+  },
+  {
+   "produit": "lustre",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "lustre"
+   ]
+  },
+  {
+   "produit": "vélo de route",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "vélo de route"
+   ]
+  },
+  {
+   "produit": "VTT",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "vtt"
+   ]
+  },
+  {
+   "produit": "vélo gravel",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "vélo gravel"
+   ]
+  },
+  {
+   "produit": "BMX",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "bmx"
+   ]
+  },
+  {
+   "produit": "surfskate",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "surfskate"
+   ]
+  },
+  {
+   "produit": "wakeboard",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "wakeboard"
+   ]
+  },
+  {
+   "produit": "sac de golf",
+   "niche": "Sport, musculation",
+   "mots_cles": [
+    "sac de golf"
+   ]
+  },
+  {
+   "produit": "tente 4 places",
+   "niche": "Camping, plein air",
+   "mots_cles": [
+    "tente 4 places"
+   ]
+  },
+  {
+   "produit": "tente cloche",
+   "niche": "Camping, plein air",
+   "mots_cles": [
+    "tente cloche"
+   ]
+  },
+  {
+   "produit": "toilettes sèches",
+   "niche": "Camping, plein air",
+   "mots_cles": [
+    "toilette sèche"
+   ]
+  },
+  {
+   "produit": "yourte",
+   "niche": "Camping, plein air",
+   "mots_cles": [
+    "yourte"
+   ]
+  },
+  {
+   "produit": "bureau avec rangement",
+   "niche": "Bureau",
+   "mots_cles": [
+    "bureau avec rangement"
+   ]
+  },
+  {
+   "produit": "bureau blanc",
+   "niche": "Bureau",
+   "mots_cles": [
+    "bureau blanc"
+   ]
+  },
+  {
+   "produit": "fauteuil de direction",
+   "niche": "Bureau",
+   "mots_cles": [
+    "fauteuil de direction"
+   ]
+  },
+  {
+   "produit": "fauteuil d'esthétique",
+   "niche": "Professionnels",
+   "mots_cles": [
+    "fauteuil esthétique"
+   ]
+  },
+  {
+   "produit": "fauteuil de tatouage",
+   "niche": "Professionnels",
+   "mots_cles": [
+    "fauteuil tatouage"
+   ]
+  },
+  {
+   "produit": "comptoir d'accueil",
+   "niche": "Professionnels",
+   "mots_cles": [
+    "comptoir d'accueil",
+    "banque d'accueil"
+   ]
+  },
+  {
+   "produit": "table de réunion",
+   "niche": "Professionnels",
+   "mots_cles": [
+    "table de réunion"
+   ]
+  },
+  {
+   "produit": "malle de voyage",
+   "niche": "Mode, bagagerie",
+   "mots_cles": [
+    "malle de voyage"
+   ]
+  },
+  {
+   "produit": "veste en daim",
+   "niche": "Mode, bagagerie",
+   "mots_cles": [
+    "veste daim"
+   ]
+  },
+  {
+   "produit": "meuble hi-fi",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "meuble hifi"
+   ]
+  },
+  {
+   "produit": "aménagement de van",
+   "niche": "Camping, plein air",
+   "mots_cles": [
+    "aménagement van",
+    "meuble van"
+   ]
+  },
+  {
+   "produit": "rampe de chargement",
+   "niche": "Atelier, garage",
+   "mots_cles": [
+    "rampe de chargement"
+   ]
+  },
+  {
+   "produit": "jardinière en bois",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "jardinière bois"
+   ]
+  },
+  {
+   "produit": "salon de balcon",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "salon de balcon"
+   ]
+  },
+  {
+   "produit": "banc coffre",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "banc coffre"
+   ]
+  },
+  {
+   "produit": "chariot de plancha",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "table plancha",
+    "chariot plancha"
+   ]
+  },
+  {
+   "produit": "desserte de barbecue",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "desserte barbecue"
+   ]
+  },
+  {
+   "produit": "évier extérieur",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "évier extérieur"
+   ]
+  },
+  {
+   "produit": "banc de rangement",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "banc de rangement"
+   ]
+  },
+  {
+   "produit": "vestiaire d'entrée",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "vestiaire entrée"
+   ]
+  },
+  {
+   "produit": "colonne de rangement",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "colonne de rangement"
+   ]
+  },
+  {
+   "produit": "meuble de cuisine",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "meuble de cuisine"
+   ]
+  },
+  {
+   "produit": "table console extensible",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "table console extensible"
+   ]
+  },
+  {
+   "produit": "fauteuil papasan",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "fauteuil papasan"
+   ]
+  },
+  {
+   "produit": "fauteuil design",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "fauteuil design"
+   ]
+  },
+  {
+   "produit": "fauteuil vintage",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "fauteuil vintage"
+   ]
+  },
+  {
+   "produit": "canapé 2 places",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "canapé 2 places"
+   ]
+  },
+  {
+   "produit": "canapé arrondi",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "canapé arrondi"
+   ]
+  },
+  {
+   "produit": "canapé panoramique",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "canapé panoramique"
+   ]
+  },
+  {
+   "produit": "lit 90x190",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "lit 90x190",
+    "lit 1 place"
+   ]
+  },
+  {
+   "produit": "lit en métal",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "lit en fer forgé",
+    "lit métal"
+   ]
+  },
+  {
+   "produit": "lit en velours",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "lit velours"
+   ]
+  },
+  {
+   "produit": "cache-radiateur",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "cache radiateur"
+   ]
+  },
+  {
+   "produit": "bureau en L",
+   "niche": "Bureau",
+   "mots_cles": [
+    "bureau en l"
+   ]
+  },
+  {
+   "produit": "tente tunnel",
+   "niche": "Camping, plein air",
+   "mots_cles": [
+    "tente tunnel"
+   ]
+  },
+  {
+   "produit": "tente 8 places",
+   "niche": "Camping, plein air",
+   "mots_cles": [
+    "tente 8 places"
+   ]
+  },
+  {
+   "produit": "tente glamping",
+   "niche": "Camping, plein air",
+   "mots_cles": [
+    "tente glamping",
+    "tente safari"
+   ]
+  },
+  {
+   "produit": "abri de camping",
+   "niche": "Camping, plein air",
+   "mots_cles": [
+    "abri de camping"
+   ]
+  },
+  {
+   "produit": "store de camping-car",
+   "niche": "Camping, plein air",
+   "mots_cles": [
+    "store camping car"
+   ]
+  },
+  {
+   "produit": "couvre-benne",
+   "niche": "Camping, plein air",
+   "mots_cles": [
+    "couvre benne"
+   ]
+  },
+  {
+   "produit": "comptoir de bar",
+   "niche": "Professionnels",
+   "mots_cles": [
+    "comptoir bar"
+   ]
+  },
+  {
+   "produit": "table de couture",
+   "niche": "Loisirs, jeux",
+   "mots_cles": [
+    "table de couture"
+   ]
+  },
+  {
+   "produit": "harpe",
+   "niche": "Loisirs, jeux",
+   "mots_cles": [
+    "harpe"
+   ]
+  },
+  {
+   "produit": "violon",
+   "niche": "Loisirs, jeux",
+   "mots_cles": [
+    "violon"
+   ]
+  },
+  {
+   "produit": "guitare acoustique",
+   "niche": "Loisirs, jeux",
+   "mots_cles": [
+    "guitare acoustique"
+   ]
+  },
+  {
+   "produit": "batterie acoustique",
+   "niche": "Loisirs, jeux",
+   "mots_cles": [
+    "batterie acoustique"
+   ]
+  },
+  {
+   "produit": "handpan",
+   "niche": "Loisirs, jeux",
+   "mots_cles": [
+    "handpan"
+   ]
+  },
+  {
+   "produit": "globe bar",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "globe bar"
+   ]
+  },
+  {
+   "produit": "lit de repos",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "lit de repos"
+   ]
+  },
+  {
+   "produit": "table gigogne",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "table gigogne"
+   ]
+  },
+  {
+   "produit": "table de jardin ronde",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "table de jardin ronde"
+   ]
+  },
+  {
+   "produit": "salon de terrasse",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "salon de terrasse"
+   ]
+  },
+  {
+   "produit": "porte de grange coulissante",
+   "niche": "Maison, mobilier",
+   "mots_cles": [
+    "porte coulissante",
+    "porte grange"
+   ]
+  },
+  {
+   "produit": "tapis d'extérieur",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "tapis d'extérieur"
+   ]
+  },
+  {
+   "produit": "chariot de plage",
+   "niche": "Camping, plein air",
+   "mots_cles": [
+    "chariot de plage"
+   ]
+  },
+  {
+   "produit": "chariot de jardin",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "chariot de jardin"
+   ]
+  },
+  {
+   "produit": "cabanon",
+   "niche": "Jardin, extérieur",
+   "mots_cles": [
+    "cabanon"
+   ]
+  }
+ ]
+}

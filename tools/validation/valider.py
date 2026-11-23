@@ -5,6 +5,7 @@ Usage :
   python3 valider.py fetch              appelle DataForSEO une fois et enregistre la réponse brute
   python3 valider.py analyse FICHIER    calcule les critères et écrit le CSV et les lignes pour la grille
   python3 valider.py test               vérifie les calculs sur des données fictives
+  Option --idees FICHIER : utiliser une autre liste d'idées que idees.json
 
 La clé DataForSEO n'est jamais dans ce fichier : le proxy de la session l'ajoute
 aux requêtes vers api.dataforseo.com. L'en-tête envoyé ici est un leurre qu'il remplace.
@@ -41,8 +42,11 @@ CONCURRENCE_FR = {"LOW": "Faible", "MEDIUM": "Moyenne", "HIGH": "Élevée"}
 LISTE_CONCURRENCE = {"LOW": "FAIBLE", "MEDIUM": "MOYENNE", "HIGH": "ÉLEVÉE"}
 
 
+IDEES = os.path.join(ICI, "idees.json")  # autre liste : option --idees FICHIER
+
+
 def lire_idees():
-    with open(os.path.join(ICI, "idees.json"), encoding="utf-8") as f:
+    with open(IDEES, encoding="utf-8") as f:
         return json.load(f)["idees"]
 
 
@@ -295,6 +299,8 @@ def test():
 
 
 if __name__ == "__main__":
+    if "--idees" in sys.argv:
+        IDEES = os.path.abspath(sys.argv[sys.argv.index("--idees") + 1])
     cmd = sys.argv[1] if len(sys.argv) > 1 else ""
     if cmd == "fetch":
         # Envoi payant (environ 0,09 $) : seulement avec l'accord explicite de l'apprenant pour CET envoi.
