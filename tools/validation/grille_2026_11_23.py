@@ -1,5 +1,8 @@
-"""Lignes de la grille pour les produits retenus du lot DataForSEO du 23/11/2026 (copie de la mise en page de la ligne 60,
-formule de marge, chiffres A B H I J K L N). Usage : python3 -I grille_2026_11_23.py > requetes.json"""
+"""Lignes de la grille pour les produits retenus du lot DataForSEO du 23/11/2026 (copie de la mise en page d'une ligne modèle,
+formule de marge, chiffres A B H I J K L N).
+Usage : python3 -I grille_2026_11_23.py > requetes.json
+        python3 -I grille_2026_11_23.py retenus.json LIGNE_DEBUT LIGNE_MODELE > requetes.json
+        (retenus.json : liste de [produit de la liste, nom en colonne A, niche, remarque])"""
 import json, os, sys
 ICI = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, ICI)
@@ -43,6 +46,9 @@ RETENUS = [  # (produit de la liste, nom en colonne A, niche, remarque)
  ("float tube", "float tube", "Pêche", ""),
  ("tente gonflable", "tente gonflable", "Camping", ""),
 ]
+if len(sys.argv) == 4:
+    RETENUS = [tuple(r) for r in json.load(open(sys.argv[1], encoding="utf-8"))]
+    DEBUT, MODELE = int(sys.argv[2]), int(sys.argv[3])
 brut = json.load(open(os.path.join(ICI, "donnees", "dataforseo-2026-11-23.json"), encoding="utf-8"))
 items = {it["keyword"].lower(): it for it in brut["tasks"][0]["result"]}
 res = {l["produit"]: l for l in json.load(open(os.path.join(ICI, "donnees", "resultats-2026-11-23.json"), encoding="utf-8"))}
