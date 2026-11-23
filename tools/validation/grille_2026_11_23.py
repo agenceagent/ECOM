@@ -1,13 +1,15 @@
 """Lignes de la grille pour les produits retenus du lot DataForSEO du 23/11/2026 (copie de la mise en page d'une ligne modèle,
 formule de marge, chiffres A B H I J K L N).
 Usage : python3 -I grille_2026_11_23.py > requetes.json
-        python3 -I grille_2026_11_23.py retenus.json LIGNE_DEBUT LIGNE_MODELE > requetes.json
+        python3 -I grille_2026_11_23.py retenus.json LIGNE_DEBUT LIGNE_MODELE [SUFFIXE] > requetes.json
+        (SUFFIXE « b » : 2e envoi du jour, fichiers ...-2026-11-23b.json)
         (retenus.json : liste de [produit de la liste, nom en colonne A, niche, remarque])"""
 import json, os, sys
 ICI = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, ICI)
 import valider
-valider.IDEES = os.path.join(ICI, "idees-2026-11-23.json")
+SUFFIXE = sys.argv[4] if len(sys.argv) == 5 else ""
+valider.IDEES = os.path.join(ICI, f"idees-2026-11-23{SUFFIXE}.json")
 SHEET, MODELE, DEBUT = 1589929953, 60, 61
 nb = lambda n: f"{n:,}".replace(",", " ")
 
@@ -46,12 +48,12 @@ RETENUS = [  # (produit de la liste, nom en colonne A, niche, remarque)
  ("float tube", "float tube", "Pêche", ""),
  ("tente gonflable", "tente gonflable", "Camping", ""),
 ]
-if len(sys.argv) == 4:
+if len(sys.argv) in (4, 5):
     RETENUS = [tuple(r) for r in json.load(open(sys.argv[1], encoding="utf-8"))]
     DEBUT, MODELE = int(sys.argv[2]), int(sys.argv[3])
-brut = json.load(open(os.path.join(ICI, "donnees", "dataforseo-2026-11-23.json"), encoding="utf-8"))
+brut = json.load(open(os.path.join(ICI, "donnees", f"dataforseo-2026-11-23{SUFFIXE}.json"), encoding="utf-8"))
 items = {it["keyword"].lower(): it for it in brut["tasks"][0]["result"]}
-res = {l["produit"]: l for l in json.load(open(os.path.join(ICI, "donnees", "resultats-2026-11-23.json"), encoding="utf-8"))}
+res = {l["produit"]: l for l in json.load(open(os.path.join(ICI, "donnees", f"resultats-2026-11-23{SUFFIXE}.json"), encoding="utf-8"))}
 idees = {i["produit"]: i for i in valider.lire_idees()}
 
 def cellule_volume(idee, total_attendu):

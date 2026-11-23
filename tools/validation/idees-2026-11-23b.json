@@ -1,0 +1,564 @@
+{
+ "_lisez_moi": "2e liste du 23/11/2026 : règles du coach (revente 500 € max, CPC 0,80 € max), niches hors maison et jardin, liste noire.",
+ "idees": [
+  {
+   "produit": "selle de cheval",
+   "niche": "Équitation",
+   "mots_cles": [
+    "selle de cheval",
+    "selle cheval"
+   ]
+  },
+  {
+   "produit": "selle western",
+   "niche": "Équitation",
+   "mots_cles": [
+    "selle western"
+   ]
+  },
+  {
+   "produit": "obstacle d'équitation",
+   "niche": "Équitation",
+   "mots_cles": [
+    "obstacle équitation",
+    "obstacle cheval"
+   ]
+  },
+  {
+   "produit": "couverture pour cheval",
+   "niche": "Équitation",
+   "mots_cles": [
+    "couverture cheval"
+   ]
+  },
+  {
+   "produit": "ruche",
+   "niche": "Apiculture",
+   "mots_cles": [
+    "ruche",
+    "ruche dadant",
+    "ruche warré"
+   ]
+  },
+  {
+   "produit": "extracteur de miel",
+   "niche": "Apiculture",
+   "mots_cles": [
+    "extracteur de miel"
+   ]
+  },
+  {
+   "produit": "maturateur à miel",
+   "niche": "Apiculture",
+   "mots_cles": [
+    "maturateur miel"
+   ]
+  },
+  {
+   "produit": "kit apiculture",
+   "niche": "Apiculture",
+   "mots_cles": [
+    "kit apiculture",
+    "kit apiculteur"
+   ]
+  },
+  {
+   "produit": "biwy",
+   "niche": "Pêche",
+   "mots_cles": [
+    "biwy",
+    "biwy carpe"
+   ]
+  },
+  {
+   "produit": "bedchair",
+   "niche": "Pêche",
+   "mots_cles": [
+    "bedchair",
+    "bed chair carpe"
+   ]
+  },
+  {
+   "produit": "kayak de pêche",
+   "niche": "Pêche",
+   "mots_cles": [
+    "kayak de pêche"
+   ]
+  },
+  {
+   "produit": "barque de pêche",
+   "niche": "Pêche",
+   "mots_cles": [
+    "barque de pêche"
+   ]
+  },
+  {
+   "produit": "filet de golf",
+   "niche": "Golf",
+   "mots_cles": [
+    "filet de golf",
+    "filet d'entraînement golf"
+   ]
+  },
+  {
+   "produit": "tapis de golf",
+   "niche": "Golf",
+   "mots_cles": [
+    "tapis de golf",
+    "tapis de practice golf"
+   ]
+  },
+  {
+   "produit": "putting green",
+   "niche": "Golf",
+   "mots_cles": [
+    "putting green"
+   ]
+  },
+  {
+   "produit": "chariot de golf",
+   "niche": "Golf",
+   "mots_cles": [
+    "chariot de golf"
+   ]
+  },
+  {
+   "produit": "cockpit simracing",
+   "niche": "Simulation, gaming",
+   "mots_cles": [
+    "cockpit simracing",
+    "cockpit sim racing",
+    "siège simracing"
+   ]
+  },
+  {
+   "produit": "cajon",
+   "niche": "Musique",
+   "mots_cles": [
+    "cajon"
+   ]
+  },
+  {
+   "produit": "tongue drum",
+   "niche": "Musique",
+   "mots_cles": [
+    "tongue drum",
+    "steel tongue drum"
+   ]
+  },
+  {
+   "produit": "djembé",
+   "niche": "Musique",
+   "mots_cles": [
+    "djembé"
+   ]
+  },
+  {
+   "produit": "harpe lyre",
+   "niche": "Musique",
+   "mots_cles": [
+    "harpe lyre"
+   ]
+  },
+  {
+   "produit": "banjo",
+   "niche": "Musique",
+   "mots_cles": [
+    "banjo"
+   ]
+  },
+  {
+   "produit": "violoncelle",
+   "niche": "Musique",
+   "mots_cles": [
+    "violoncelle"
+   ]
+  },
+  {
+   "produit": "trompette",
+   "niche": "Musique",
+   "mots_cles": [
+    "trompette"
+   ]
+  },
+  {
+   "produit": "flûte traversière",
+   "niche": "Musique",
+   "mots_cles": [
+    "flûte traversière"
+   ]
+  },
+  {
+   "produit": "guitare classique",
+   "niche": "Musique",
+   "mots_cles": [
+    "guitare classique"
+   ]
+  },
+  {
+   "produit": "guitare électrique",
+   "niche": "Musique",
+   "mots_cles": [
+    "guitare électrique"
+   ]
+  },
+  {
+   "produit": "arche de mariage",
+   "niche": "Mariage, événementiel",
+   "mots_cles": [
+    "arche de mariage",
+    "arche mariage"
+   ]
+  },
+  {
+   "produit": "mur de fleurs",
+   "niche": "Mariage, événementiel",
+   "mots_cles": [
+    "mur de fleurs",
+    "mur de fleurs artificielles"
+   ]
+  },
+  {
+   "produit": "robe de mariée",
+   "niche": "Mariage, événementiel",
+   "mots_cles": [
+    "robe de mariée"
+   ]
+  },
+  {
+   "produit": "costume de mariage",
+   "niche": "Mariage, événementiel",
+   "mots_cles": [
+    "costume de mariage homme",
+    "costume mariage"
+   ]
+  },
+  {
+   "produit": "perruque cheveux naturels",
+   "niche": "Beauté, cheveux",
+   "mots_cles": [
+    "perruque cheveux naturels",
+    "perruque naturelle"
+   ]
+  },
+  {
+   "produit": "perruque lace",
+   "niche": "Beauté, cheveux",
+   "mots_cles": [
+    "perruque lace front",
+    "lace wig"
+   ]
+  },
+  {
+   "produit": "extensions cheveux naturels",
+   "niche": "Beauté, cheveux",
+   "mots_cles": [
+    "extension cheveux naturels",
+    "extensions cheveux"
+   ]
+  },
+  {
+   "produit": "sac à main en cuir",
+   "niche": "Maroquinerie, mode",
+   "mots_cles": [
+    "sac à main cuir",
+    "sac en cuir femme"
+   ]
+  },
+  {
+   "produit": "sac cabas en cuir",
+   "niche": "Maroquinerie, mode",
+   "mots_cles": [
+    "sac cabas cuir"
+   ]
+  },
+  {
+   "produit": "sacoche homme en cuir",
+   "niche": "Maroquinerie, mode",
+   "mots_cles": [
+    "sacoche homme cuir"
+   ]
+  },
+  {
+   "produit": "montre automatique",
+   "niche": "Maroquinerie, mode",
+   "mots_cles": [
+    "montre automatique",
+    "montre automatique homme"
+   ]
+  },
+  {
+   "produit": "lève-moto",
+   "niche": "Moto, auto",
+   "mots_cles": [
+    "lève moto",
+    "élévateur moto"
+   ]
+  },
+  {
+   "produit": "porte-moto",
+   "niche": "Moto, auto",
+   "mots_cles": [
+    "porte moto"
+   ]
+  },
+  {
+   "produit": "abri moto",
+   "niche": "Moto, auto",
+   "mots_cles": [
+    "abri moto",
+    "garage moto"
+   ]
+  },
+  {
+   "produit": "toilette chimique",
+   "niche": "Van, camping-car",
+   "mots_cles": [
+    "toilette chimique",
+    "wc chimique",
+    "toilette portable"
+   ]
+  },
+  {
+   "produit": "marchepied camping-car",
+   "niche": "Van, camping-car",
+   "mots_cles": [
+    "marchepied camping car"
+   ]
+  },
+  {
+   "produit": "tricycle adulte",
+   "niche": "Cyclisme",
+   "mots_cles": [
+    "tricycle adulte"
+   ]
+  },
+  {
+   "produit": "home trainer",
+   "niche": "Cyclisme",
+   "mots_cles": [
+    "home trainer"
+   ]
+  },
+  {
+   "produit": "remorque vélo",
+   "niche": "Cyclisme",
+   "mots_cles": [
+    "remorque vélo"
+   ]
+  },
+  {
+   "produit": "bouée tractée",
+   "niche": "Sports nautiques",
+   "mots_cles": [
+    "bouée tractée"
+   ]
+  },
+  {
+   "produit": "kitesurf",
+   "niche": "Sports nautiques",
+   "mots_cles": [
+    "kitesurf"
+   ]
+  },
+  {
+   "produit": "bodyboard",
+   "niche": "Sports nautiques",
+   "mots_cles": [
+    "bodyboard"
+   ]
+  },
+  {
+   "produit": "cornhole",
+   "niche": "Jeux",
+   "mots_cles": [
+    "cornhole",
+    "jeu de cornhole"
+   ]
+  },
+  {
+   "produit": "jeu de palet",
+   "niche": "Jeux",
+   "mots_cles": [
+    "jeu de palet"
+   ]
+  },
+  {
+   "produit": "barre de danse",
+   "niche": "Danse, fitness",
+   "mots_cles": [
+    "barre de danse",
+    "barre de ballet"
+   ]
+  },
+  {
+   "produit": "hamac de yoga",
+   "niche": "Danse, fitness",
+   "mots_cles": [
+    "hamac de yoga",
+    "hamac aérien"
+   ]
+  },
+  {
+   "produit": "tapis de course manuel",
+   "niche": "Danse, fitness",
+   "mots_cles": [
+    "tapis de course manuel"
+   ]
+  },
+  {
+   "produit": "mannequin de vitrine",
+   "niche": "Professionnels",
+   "mots_cles": [
+    "mannequin vitrine",
+    "mannequin de magasin"
+   ]
+  },
+  {
+   "produit": "chaise de massage",
+   "niche": "Professionnels",
+   "mots_cles": [
+    "chaise de massage"
+   ]
+  },
+  {
+   "produit": "maquette de bateau",
+   "niche": "Loisirs créatifs",
+   "mots_cles": [
+    "maquette bateau",
+    "maquette bateau bois"
+   ]
+  },
+  {
+   "produit": "rouet",
+   "niche": "Loisirs créatifs",
+   "mots_cles": [
+    "rouet"
+   ]
+  },
+  {
+   "produit": "mannequin de couture",
+   "niche": "Loisirs créatifs",
+   "mots_cles": [
+    "mannequin couture"
+   ]
+  },
+  {
+   "produit": "fût de chêne",
+   "niche": "Loisirs créatifs",
+   "mots_cles": [
+    "fût de chêne",
+    "tonneau en chêne"
+   ]
+  },
+  {
+   "produit": "clapier",
+   "niche": "Petits animaux de ferme",
+   "mots_cles": [
+    "clapier",
+    "clapier lapin"
+   ]
+  },
+  {
+   "produit": "volière",
+   "niche": "Petits animaux de ferme",
+   "mots_cles": [
+    "volière"
+   ]
+  },
+  {
+   "produit": "cage à lapin",
+   "niche": "Petits animaux de ferme",
+   "mots_cles": [
+    "cage lapin"
+   ]
+  },
+  {
+   "produit": "sac de frappe sur pied",
+   "niche": "Danse, fitness",
+   "mots_cles": [
+    "sac de frappe sur pied"
+   ]
+  },
+  {
+   "produit": "station de street workout",
+   "niche": "Danse, fitness",
+   "mots_cles": [
+    "station street workout",
+    "barre de traction extérieure"
+   ]
+  },
+  {
+   "produit": "trottinette adulte",
+   "niche": "Cyclisme",
+   "mots_cles": [
+    "trottinette adulte"
+   ]
+  },
+  {
+   "produit": "tambour chamanique",
+   "niche": "Musique",
+   "mots_cles": [
+    "tambour chamanique"
+   ]
+  },
+  {
+   "produit": "gong",
+   "niche": "Musique",
+   "mots_cles": [
+    "gong"
+   ]
+  },
+  {
+   "produit": "blouson aviateur",
+   "niche": "Maroquinerie, mode",
+   "mots_cles": [
+    "blouson aviateur"
+   ]
+  },
+  {
+   "produit": "tabouret selle",
+   "niche": "Professionnels",
+   "mots_cles": [
+    "tabouret selle",
+    "tabouret ergonomique selle"
+   ]
+  },
+  {
+   "produit": "cage à oiseaux",
+   "niche": "Petits animaux de ferme",
+   "mots_cles": [
+    "cage à oiseaux"
+   ]
+  },
+  {
+   "produit": "cage à perroquet",
+   "niche": "Petits animaux de ferme",
+   "mots_cles": [
+    "cage perroquet"
+   ]
+  },
+  {
+   "produit": "pressoir à fruits",
+   "niche": "Loisirs créatifs",
+   "mots_cles": [
+    "pressoir",
+    "pressoir à pommes"
+   ]
+  },
+  {
+   "produit": "coffre de sellerie",
+   "niche": "Équitation",
+   "mots_cles": [
+    "coffre de sellerie"
+   ]
+  },
+  {
+   "produit": "mirador de chasse",
+   "niche": "Pêche",
+   "mots_cles": [
+    "mirador chasse"
+   ]
+  }
+ ]
+}

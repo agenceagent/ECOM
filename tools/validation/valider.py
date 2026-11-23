@@ -118,6 +118,10 @@ def fetch():
                         "usd_pour_1_eur": taux, "date_taux": date_taux, "source_taux": source_taux}
     os.makedirs(DONNEES, exist_ok=True)
     chemin = os.path.join(DONNEES, f"dataforseo-{aujourd_hui.isoformat()}.json")
+    suffixe = "b"
+    while os.path.exists(chemin):  # 2e envoi du même jour : on n'écrase pas le premier
+        chemin = os.path.join(DONNEES, f"dataforseo-{aujourd_hui.isoformat()}{suffixe}.json")
+        suffixe = chr(ord(suffixe) + 1)
     with open(chemin, "w", encoding="utf-8") as f:
         json.dump(rep, f, ensure_ascii=False, indent=1)
     tache = rep["tasks"][0]
